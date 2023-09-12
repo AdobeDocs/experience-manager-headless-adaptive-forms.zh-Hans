@@ -10,8 +10,8 @@ hide: false
 exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 49%
+source-wordcount: '1230'
+ht-degree: 65%
 
 ---
 
@@ -61,19 +61,19 @@ AEM Formsas a Cloud Service提供了一个用户友好的编辑器，用于创�
 
 1. 登录 [!DNL Experience Manager Forms] 创作实例。
 
-1. 在 Experience Manager 登录页面上输入您的凭据。登录后，在左上角，点按 **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
+1. 在 Experience Manager 登录页面上输入您的凭据。登录后，在左上角，点按 **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL 表单]** > **[!UICONTROL 表单和文档]**。
 
-1. 点击 **[!UICONTROL Create]**  > **[!UICONTROL Adaptive Forms]**. 向导随即打开。在“源”选项卡中，选择一个模板：
+1. 点按&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 自适应表单]**。向导随即打开。在“源”选项卡中，选择一个模板：
 
    ![模板](/help/assets/core-components-template.png)
 
-   选择模板时，将自动选择模板中指定的主题和提交操作，并且 **[!UICONTROL Create]** 按钮已启用。 您可以转到 **[!UICONTROL Style]** 或 **[!UICONTROL Submission]** 选项卡以选择其他主题或提交操作。 如果所选模板未指定主题，则“创建”按钮将保持禁用状态。您可以转到 **[!UICONTROL Styles]** 选项卡以手动选择主题。
+   选择一个模板时，会自动选择该模板中指定的主题和提交操作，并启用&#x200B;**[!UICONTROL 创建]**&#x200B;按钮。您可以转到&#x200B;**[!UICONTROL 样式]**&#x200B;或&#x200B;**[!UICONTROL 提交]**&#x200B;选项卡以选择不同的主题或提交操作。如果所选模板未指定主题，则“创建”按钮将保持禁用状态。您可以转到&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡以手动选择主题。
 
-1. 在 **[!UICONTROL Style]** 选项卡，选择一个主题：
+1. 在&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中，选择一个主题：
 
    * 如果所选模板指定了一个主题，该主题将在向导中自动选定。您还可以从“样式”选项卡中选择其他主题。
 
-   * 如果所选模板未指定主题，您可以使用“样式”选项卡选择主题。此 **[!UICONTROL Create]** 仅在选择主题后启用按钮。
+   * 如果所选模板未指定主题，您可以使用“样式”选项卡选择主题。**[!UICONTROL 创建]**&#x200B;按钮仅在选择主题后启用。
 
 1. （可选）在“数据”选项卡中，选择一个数据模型：
 
@@ -83,21 +83,21 @@ AEM Formsas a Cloud Service提供了一个用户友好的编辑器，用于创�
 
    默认情况下，关联的 JSON 架构的所有字段都将自动选定并转换为相应的自适应表单组件，从而简化创作过程。该向导可让您使用复选框选择性地选定应包含在自适应表单中的字段，更加方便。
 
-1. 在 **[!UICONTROL Submission]** 选项卡，选择提交操作：
+1. 在&#x200B;**[!UICONTROL 提交]**&#x200B;选项卡中，选择提交操作：
 
-   * 选择一个模板时，该模板中指定的提交操作将自动选定。您可以从“提交”选项卡中选择其他提交操作。此 **[!UICONTROL  Submission]** 选项卡显示所有可用的提交操作。
+   * 选择一个模板时，该模板中指定的提交操作将自动选定。您可以从“提交”选项卡中选择其他提交操作。**[!UICONTROL 提交]**&#x200B;选项卡显示所有可用的提交操作。
 
-   * 当所选模板未指定提交操作时，您可以使用 **[!UICONTROL Submission]** 选项卡以选择提交操作
+   * 如果所选模板未指定提交操作，您可以使用&#x200B;**[!UICONTROL 提交]**&#x200B;选项卡来选择提交操作
 
-1. （可选）在 **[!UICONTROL Delivery]** 选项卡，您可以为自适应表单指定发布或取消发布日期。
+1. （可选）在&#x200B;**[!UICONTROL 交付]**&#x200B;选项卡中，您可以为自适应表单指定发布或取消发布日期。
 
-1. 点击&#x200B;**[!UICONTROL Create]**。将出现一个对话框，用于指定标题、名称和位置以保存自适应表单：
+1. 点按&#x200B;**[!UICONTROL 创建]**。将出现一个对话框，用于指定标题、名称和位置以保存自适应表单：
 
-   * **[!UICONTROL Title]** 指定表单的显示名称。 标题可帮助您在 [!DNL Experience Manager Forms] 用户界面中标识表单。
-   * **[!UICONTROL Name:]** 指定表单的名称。 在存储库中创建具有指定名称的节点。在开始键入标题时，名称字段的值将自动生成。您可以更改建议的值。名称字段只能包含字母数字字符、连字符和下划线。所有无效的输入都将替换为连字符。
-   * **[!UICONTROL Path:]** 指定保存自适应表单的位置。 您可以直接将自适应表单保存在 `/content/dam/formsanddocuments`，也可以创建一个文件夹（例如 `/content/dam/formsanddocuments/adaptiveforms`）来保存自适应表单。确保先创建文件夹，然后再在路径中使用它。此 **[!UICONTROL Path]** 字段不会自动创建文件夹。
+   * **[!UICONTROL 标题]**：指定表单的显示名称。标题可帮助您在 [!DNL Experience Manager Forms] 用户界面中标识表单。
+   * **[!UICONTROL 名称：]**&#x200B;指定表单的名称。在存储库中创建具有指定名称的节点。在开始键入标题时，名称字段的值将自动生成。您可以更改建议的值。名称字段只能包含字母数字字符、连字符和下划线。所有无效的输入都将替换为连字符。
+   * **[!UICONTROL 路径：]**&#x200B;指定用于保存自适应表单的位置。您可以直接将自适应表单保存在 `/content/dam/formsanddocuments`，也可以创建一个文件夹（例如 `/content/dam/formsanddocuments/adaptiveforms`）来保存自适应表单。确保先创建文件夹，然后再在路径中使用它。**[!UICONTROL 路径]**&#x200B;字段不会自动创建文件夹。
 
-1. 点击&#x200B;**[!UICONTROL Create]**。自适应表单将创建并在自适应表单编辑器中打开。该编辑器显示模板中可用的内容。根据自适应表单的类型，关联表单中存在的表单元素 <!--XFA form template, XML schema or --> JSON架构或表单数据模型显示在 **[!UICONTROL Data Model Objects]** 选项卡 **[!UICONTROL Content Browser]** 在侧栏中。 您还可以拖放这些元素来生成自适应表单。
+1. 点按&#x200B;**[!UICONTROL 创建]**。自适应表单将创建并在自适应表单编辑器中打开。该编辑器显示模板中可用的内容。根据自适应表单的类型，关联的 <!--XFA form template, XML schema or --> JSON 架构或表单数据模型显示在边栏的&#x200B;**[!UICONTROL 内容浏览器]**&#x200B;的&#x200B;**[!UICONTROL 数据模型对象]**&#x200B;选项卡中。您还可以拖放这些元素来生成自适应表单。
 
 现在，您可以将自适应Forms组件拖放到自适应Forms容器中来设计和创建表单。
 
