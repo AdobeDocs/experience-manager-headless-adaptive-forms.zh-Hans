@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: Headless CMS、自适应表单、Headless UI、Headful CMS、语音助理、alexa、聊天机器人、WhatsApp架构
 hide: false
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: a88f2dab6fda61b674300e1d6a6c4f495ba85c97
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 11%
+source-wordcount: '353'
+ht-degree: 12%
 
 ---
 
@@ -37,6 +37,9 @@ Headless 自适应表单可帮助您：
 
 您无需预先了解Adobe Experience Manager即可开发Headless自适应表单。
 
-## 如何加入率先采用者计划？ {#how-to-join-early-adopter-forms}
+<!-- 
+## How to join the early adopter program? {#how-to-join-early-adopter-forms}
 
-AEM Formsas a Cloud Service和AEM 6.5.16.0 Forms或更高版本的内部部署定期客户和Adobe托管服务企业客户可以使用此服务。 发送电子邮件至 [headlessadaptiveforms@adobe.com](mailto:headlessadaptiveforms@adobe.com) 正式发送电子邮件ID以加入率先采用者计划。
+The service is available for AEM Forms as a Cloud Service and AEM 6.5.16.0 Forms or later On-Premise term customers and Adobe-Managed Service enterprise customers. Send an email to [headlessadaptiveforms@adobe.com](mailto:headlessadaptiveforms@adobe.com) from your official email ID to join the early adopter program. 
+
+-->
