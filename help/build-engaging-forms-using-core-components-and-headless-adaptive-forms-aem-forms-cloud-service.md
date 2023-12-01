@@ -6,10 +6,10 @@ seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 hide: true
 hidefromtoc: true
-exl-id: d0ca7389-9a7a-421e-ab6b-7845813d860e
-source-git-commit: f489a2ba818db44ccd92df80a177f0e9f3a1bc2c
+exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
+source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2480'
 ht-degree: 90%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 90%
 
 * 安装 [Node.js 16.13.0或更高版本](https://nodejs.org/en/download/). 如果您是初次使用Node.js，请参阅 [如何安装节点.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
-* [启用Headless自适应Forms](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) 适合您的AEM Formsas a Cloud Service环境。
+* [启用自适应Forms核心组件](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) 适合您的AEM Formsas a Cloud Service环境。
 
 * 安装 [Microsoft Visual Studio代码](https://code.visualstudio.com/download) 或任何纯文本编辑器。 文档中的示例使用了Microsoft Visual Studio Code。
 
