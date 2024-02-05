@@ -5,10 +5,10 @@ description: 使用核心组件和 Headless 构建具有吸引力的表单
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
+source-git-commit: bcc51bcae3b26cf20e7c0b5b75935bf69a991731
 workflow-type: tm+mt
 source-wordcount: '2452'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -84,9 +84,9 @@ ht-degree: 86%
 1. 为表单创建提交端点：
 
    1. 在新的浏览器标签页中打开 <https://requestbin.com/>。
+   1. 单击&#x200B;**创建公共 bin** 并复制端点 URL。
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
-   1. 单击&#x200B;**创建公共 bin** 并复制端点 URL。
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
 1. 使用“向导”界面创作自适应表单：
@@ -103,8 +103,7 @@ ht-degree: 86%
    1. 单击&#x200B;**样式**&#x200B;选项卡，选择 **wknd-theme** 主题，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. 单击&#x200B;**提交**&#x200B;选项卡，并选择&#x200B;**提交到 REST 端点**信息卡，并在
-      **POST 请求的 URL** 字段中指定公共 bin，如下所示：
+   1. 单击 **提交** 选项卡，然后选择 **提交到REST端点** 卡并在中指定公共bin **POST请求的URL** 字段，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. 单击&#x200B;**创建**。为表单指定名称和标题。例如， **注册**. 单击&#x200B;**创建**。
@@ -115,10 +114,6 @@ ht-degree: 86%
    1. 从组件浏览器中拖放组件以创建表单，如下所示：
 
       ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
-
-
-
-
 
 1. 向表单添加验证：
 
@@ -241,7 +236,7 @@ ht-degree: 86%
 
    >[!NOTE]
    >
-   > * 如果您收到一条消息，要求您通过 `npm notice Run npm nstall -g npm@9.6.0` 命令更新 npm，请忽略此消息。
+   > * 如果您收到一条消息，要求您通过 `npm notice Run npm nstall -g npm@9.6.0` 命令，忽略消息。
    > * 除非工作簿中指示您运行其他 npm 命令，否则不要这样做。
 
 1. 现在，运行以下命令来预览表单。
