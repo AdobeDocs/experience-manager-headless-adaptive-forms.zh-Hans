@@ -4,17 +4,15 @@ seo-title: Build Engaging Forms Using Core Components and Headless
 description: 使用核心组件和 Headless 构建具有吸引力的表单
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
-hide: true
-hidefromtoc: true
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
+source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 90%
+source-wordcount: '2452'
+ht-degree: 86%
 
 ---
 
-# 使用核心组件和 Headless 构建具有吸引力的表单 AEM Forms上的自适应Formsas a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
+# 在AEM Formsas a Cloud Service上使用核心组件和Headless自适应Forms构建引人入胜的Forms {#build-engaging-forms-using-core-components-and-headless}
 
 ## 实验室概述 {#lab-overview}
 
@@ -36,7 +34,7 @@ ht-degree: 90%
 
 * 安装 [最新版本的Git](https://git-scm.com/downloads). 如果您不熟悉Git，请参阅 [安装Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* 安装 [Node.js 16.13.0或更高版本](https://nodejs.org/en/download/). 如果您是初次使用Node.js，请参阅 [如何安装节点.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* 安装 [Node.js 16.13.0或更高版本](https://nodejs.org/en/download/). 如果您是初次使用Node.js，请参阅 [如何安装节点.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 
 * [启用自适应Forms核心组件](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) 适合您的AEM Formsas a Cloud Service环境。
 
@@ -59,15 +57,16 @@ ht-degree: 90%
 1. 打开浏览器并输入 Cloud Service 创作环境的 URL。例如：
    [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
 
-1. 登录到 Cloud Service 创作环境。
+1. 登录到Cloud Service创作环境。
+   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1. 要导航到AEM Forms UI，请单击 **Forms > Forms和文档**.
 
-   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+
 
    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
-   关闭任何与偏好设置或信息相关的弹出窗口。将显示所有可用的表单。
+   关闭任何与首选项或信息相关的弹出窗口。 将显示所有可用的表单。
 
 
 ## 第 2 课
@@ -136,7 +135,7 @@ ht-degree: 90%
 
    1. 用虚拟数据填写表单。
 
-   1. 提交表单.
+   1. 提交表单。
       ![](/help/assets/screenshot2028125729.png)
 
    1. 在“请求 bin”选项卡中，检查提交的数据。
@@ -224,6 +223,13 @@ ht-degree: 90%
 
      ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
+1. 在AEM环境中创建本地用户。
+
+   >[!NOTE]
+   > 要创建本地用户，请执行以下操作：
+   > 转到 `AEM Home` > `Tools` > `Security` > `Users`
+   > 确保用户是forms-users组的成员。
+
 
 1. 在命令提示符窗口中，运行以下命令：
 
@@ -246,7 +252,10 @@ ht-degree: 90%
 
    ![](/help/assets/screenshot2028117229.png)
 
-   执行上述命令后，等待 `webpack compiled` 消息。表单将显示在浏览器标签页中。
+   执行上述命令后，等待 `webpack compiled` 消息后，您将被重定向到AEM登录页面。
+
+1. 单击 **本地登录（仅管理任务）** 在AEM登录页面上。
+1. 输入已创建本地用户的凭据，表单将显示在浏览器选项卡中。
 
    >[!NOTE]
    >
