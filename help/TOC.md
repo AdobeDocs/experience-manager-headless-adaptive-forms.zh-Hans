@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Manager Headless自适应表单文档
 feature: Adaptive Forms
 role: Developer
 hide: false
-source-git-commit: b1e62aa73d5f442c8d025202f3bad31c0f82a113
+source-git-commit: 6fbc8605163c5f5415cadf5c19c96e1f68a23841
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 5%
+source-wordcount: '138'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 5%
 # Adobe Experience Manager Headless自适应表单 {#using}
 
 + [概述](overview.md)
++ [概述测试](overview-testing.md)
 + [架构](architecture.md)
 + 快速设置 {#quick-setup}
    + [在AEM 6.5 Forms上启用Headless自适应Forms](enable-headless-adaptive-forms-and-core-components.md)
@@ -30,7 +31,7 @@ ht-degree: 5%
    + [使用自适应Forms编辑器创建Headless自适应表单](create-a-headless-adaptive-form.md)
 + 开发人员参考 {#developer-reference}
    + [Headless自适应表单API](https://opensource.adobe.com/aem-forms-af-runtime/api/)
-+ [常见问题](faq.md)
++ [常见问题解答](faq.md)
 + [疑难解答](troubleshooting.md)
 + [适用于Headless自适应表单的Microsoft Visual Studio代码扩展](visual-studio-code-extension-for-headless-adaptive-forms.md)
 
