@@ -9,7 +9,8 @@ level: Beginner, Intermediate
 keywords: Headless CMS、自适应表单、Headless UI、Headful CMS、语音助理、alexa、聊天机器人、WhatsApp架构
 hide: true
 hidefromtoc: true
-source-git-commit: 78ae6bc3e390d6a8e46d10d3ad3580c4268bf4ed
+exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
+source-git-commit: 7516095c2074b0b3b5300d75dc9624beb7ffb3f6
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 14%
@@ -32,6 +33,13 @@ Headless 自适应表单可帮助您：
 此外，您可以自由开发自己的组件，以使用您选择的任何UI框架和编程语言呈现表单。 您还可以使用现成的React组件渲染Headless自适应表单。
 
 ## 主要功能
+
+<div>
+
+<iframe src="https://new.express.adobe.com/published/urn:aaid:sc:AP:8043685e-6c54-471a-a2ee-b8fcd357668f?promoid=Y69SGM5H&mv=other" style="width:100%; height:100vh; border:none;"></iframe>
+
+</div>
+
 
 <!-- 
 
