@@ -1,6 +1,6 @@
 ---
-title: 常见问题
-description: 常见问题
+title: 常见问题解答
+description: 常见问题解答
 solution: Experience Manager Forms
 feature: Adaptive Forms
 topic: Headless
@@ -11,7 +11,7 @@ hide: false
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
@@ -40,21 +40,21 @@ archetype project to deploy the finished Headless adaptive forms and correspondi
 
 ## 在哪里可以获取Headless自适应表单的预览？ {#storybook-example}
 
-您可以使用入门应用程序呈现和预览自定义Headless自适应表单。 您也可以修改 [故事书](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) 预览Headless自适应表单的示例。
+您可以使用入门应用程序呈现和预览自定义Headless自适应表单。 您还可以修改[storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction)示例以预览Headless自适应表单。
 
 ![](/help/assets/storybook-example.png)
 
 ## 是否可以将Headless自适应表单与自定义框架结合使用？
 
-Headless自适应表单基于 [标准规范](/help/assets/Headless-Adaptive-Form-Specification.pdf). 您可以扩展规范以使用它来构建自定义组件。 例如，Chakra UI、Vue.js等的组件。
+Headless自适应表单基于[标准规范](/help/assets/Headless-Adaptive-Form-Specification.pdf)。 您可以扩展规范以使用它来构建自定义组件。 例如，Chakra UI、Vue.js等的组件。
 
 ## Headless自适应表单是否支持层叠字段？
 
-在级联字段中，第二字段的内容取决于在第一字段中选择的内容。 此 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behaviour--options&amp;args=formJson.items[0].fieldType：drop-down；formJson.items[0].minimum：！未定义；formJson.items[0].maximum：！未定义；formJson.items[0].label.value：Choose+number+of+options；formJson.items[0].enum[0]：1；formJson.items[0].enum[1]：2；formJson.items[0].enum[2]：3；formJson.items[1].fieldType：down) 提供了层叠字段的示例。
+在级联字段中，第二字段的内容取决于在第一字段中选择的内容。 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behaviour--options&amp;args=formJson.items[0].fieldType：drop-down；formJson.items[0].minimum：！未定义；formJson.items[0].maximum：！未定义；formJson.items[0].label.value：Choose+number+of+options；formJson.items[0].enum[0]：1；formJson.items[0].enum[1]：2；formJson.items[0].enum[2]：3；formJson.items[1].fieldType：down)提供了级联字段的示例。
 
 ## Headless自适应表单是否允许使用个性化数据预填表单？
 
-Headless自适应表单允许使用个性化数据预填表单。 此 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) 提供了如何预填充Headless自适应表单的示例。
+Headless自适应表单允许使用个性化数据预填表单。 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data)提供了预填充Headless自适应表单的示例。
 
 <!-- >
 ## Can I use existing Adaptive Forms editor to create a Headless adaptive form?

@@ -11,8 +11,8 @@ hide: false
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
 source-git-commit: a88f2dab6fda61b674300e1d6a6c4f495ba85c97
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 12%
+source-wordcount: '347'
+ht-degree: 11%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 12%
 
 Adobe Experience Manager (AEM) Headless自适应Forms是一种用于在Adobe Experience Manager平台中创建和管理headless Web表单的解决方案。 此功能使组织能够创建、发布和管理可通过API访问和交互的交互式表单，而不是通过传统的图形用户界面。 AEM Headless自适应Forms在表单开发和部署中允许更大的灵活性和可扩展性，并通过根据特定需求定制表单设计和功能而改善用户体验。 通过利用AEM和Headless技术的功能，此解决方案为创建、管理和部署各种用例和应用程序的Web表单提供了一个强大的平台。
 
-![在任何网站、应用程序或非可视化交互中构建并以本机方式呈现表单](/help/assets/headless-forms-for-any-device.jpeg)
+![在任何网站、应用程序或非可视化交互中生成表单并以本机方式呈现表单](/help/assets/headless-forms-for-any-device.jpeg)
 
 Headless 自适应表单可帮助您：
 
 * 使用选定的编程语言构建高质量的多渠道表单
 * 将表单本机集成到您的桌面和移动应用程序、网站和聊天应用程序
 * 在表单应用程序中重复使用您的专有 UI 组件
-* 利用 [Adobe Experience Manager Forms的力量](https://experienceleague.adobe.com/docs/experience-manager-65/forms/getting-started/introduction-aem-forms.html)
+* 利用Adobe Experience Manager Forms的[强大功能](https://experienceleague.adobe.com/docs/experience-manager-65/forms/getting-started/introduction-aem-forms.html)
 
 此外，您可以自由开发自己的组件，以使用您选择的任何UI框架和编程语言呈现表单。 您还可以使用现成的React组件渲染Headless自适应表单。
 

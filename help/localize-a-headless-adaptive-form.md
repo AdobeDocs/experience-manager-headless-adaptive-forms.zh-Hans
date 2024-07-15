@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 本地化Headless自适应表单 {#localize-a-headless-adaptive-form}
 
-<span class="preview"> 这是 **工作进行中** 文章。</span>
+<span class="preview">这是一个&#x200B;**正在进行中的工作**&#x200B;文章。</span>

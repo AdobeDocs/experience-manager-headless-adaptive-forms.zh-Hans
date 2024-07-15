@@ -12,7 +12,7 @@ ht-degree: 85%
 
 ---
 
-# 在AEM Formsas a Cloud Service上使用核心组件和Headless自适应Forms构建引人入胜的Forms {#build-engaging-forms-using-core-components-and-headless}
+# 使用核心组件和AEM Forms上的Headless自适应Forms构建引人入胜的Formsas a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 
 ## 实验室概述 {#lab-overview}
 
@@ -32,13 +32,13 @@ ht-degree: 85%
 
 要在实验室中使用此手，请执行以下操作：
 
-* 安装 [最新版本的Git](https://git-scm.com/downloads). 如果您不熟悉Git，请参阅 [安装Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* 安装[最新版本的Git](https://git-scm.com/downloads)。 如果您是初次使用Git，请参阅[安装Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)。
 
-* 安装 [Node.js 16.13.0或更高版本](https://nodejs.org/en/download/). 如果您是初次使用Node.js，请参阅 [如何安装节点.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
+* 安装[Node.js 16.13.0或更高版本](https://nodejs.org/en/download/)。 如果您是初次使用Node.js，请参阅[如何安装Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)。
 
-* [启用自适应Forms核心组件](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) 适合您的AEM Formsas a Cloud Service环境。
+* [为您的AEM Formsas a Cloud Service环境启用自适应Forms核心组件](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)。
 
-* 安装 [Microsoft Visual Studio代码](https://code.visualstudio.com/download) 或任何纯文本编辑器。 文档中的示例使用了Microsoft Visual Studio Code。
+* 安装[Microsoft Visual Studio Code](https://code.visualstudio.com/download)或任何纯文本编辑器。 文档中的示例使用了Microsoft Visual Studio Code。
 
 
 
@@ -60,7 +60,7 @@ ht-degree: 85%
 1. 登录到Cloud Service创作环境。
    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
-1. 要导航到AEM Forms UI，请单击 **Forms > Forms和文档**.
+1. 要导航到AEM Forms UI，请单击&#x200B;**Forms > Forms和文档**。
 
 
 
@@ -103,12 +103,12 @@ ht-degree: 85%
    1. 单击&#x200B;**样式**&#x200B;选项卡，选择 **wknd-theme** 主题，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. 单击 **提交** 选项卡，然后选择 **提交到REST端点** 卡并在中指定公共bin **POST请求的URL** 字段，如下所示：
+   1. 单击&#x200B;**提交**&#x200B;选项卡，选择&#x200B;**提交到REST端点**&#x200B;卡并在&#x200B;**URL中指定POST请求**字段的公共bin，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
-   1. 单击&#x200B;**创建**。为表单指定名称和标题。例如， **注册**. 单击&#x200B;**创建**。
+   1. 单击&#x200B;**创建**。为表单指定名称和标题。例如，**注册**。 单击&#x200B;**创建**。
 
-   1. 这将打开自适应表单编辑器。关闭偏好设置或信息的任何弹出窗口或对话框。单击左边栏上的组件浏览器，然后添加 **页眉** 和 **页脚** 组件分别位于空白表单的顶部和底部。
+   1. 这将打开自适应表单编辑器。关闭偏好设置或信息的任何弹出窗口或对话框。单击左边栏上的组件浏览器，并将&#x200B;**页眉**&#x200B;和&#x200B;**页脚**组件分别添加到空白表单的顶部和底部。
       ![](/help/assets/screenshot2028121929.png)
 
    1. 从组件浏览器中拖放组件以创建表单，如下所示：
@@ -138,13 +138,13 @@ ht-degree: 85%
 
 1. 添加交互性以与规则形成表单：
 
-   1. 单击 **选中可享受5%折扣的框** 组件。 在选项工具栏上，单击规则图标。 “规则编辑器”选项将打开。
+   1. 单击&#x200B;**选中此框可接收5%折扣**&#x200B;组件。 在选项工具栏上，单击规则图标。 “规则编辑器”选项将打开。
 
-   1. 创建规则，当 **选中可享受5%折扣的框** 选项，则已禁用应用信用卡的选项。
+   1. 创建一个规则，如果选中&#x200B;**选中接收5%折扣**&#x200B;选项的复选框，则用于应用信用卡的选项将被禁用。
 
-1. 发布表单。
+1. Publish表单。
 
-   1. 打开AEM Forms管理界面，例如， `https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments`，然后选择表单。
+   1. 打开AEM Forms管理界面，例如`https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments`，然后选择表单。
 
    1. 单击&#x200B;**发布**。
 
@@ -222,7 +222,7 @@ ht-degree: 85%
 
    >[!NOTE]
    > 要创建本地用户，请执行以下操作：
-   > 转到 `AEM Home` > `Tools` > `Security` > `Users`
+   > 转到`AEM Home` > `Tools` > `Security` > `Users`
    > 确保用户是forms-users组的成员。
 
 
@@ -236,7 +236,7 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   > * 如果您收到一条消息，要求您通过 `npm notice Run npm nstall -g npm@9.6.0` 命令，忽略消息。
+   > * 如果您收到一条消息，要求通过`npm notice Run npm nstall -g npm@9.6.0`命令更新npm，请忽略该消息。
    > * 除非工作簿中指示您运行其他 npm 命令，否则不要这样做。
 
 1. 现在，运行以下命令来预览表单。
@@ -247,9 +247,9 @@ ht-degree: 85%
 
    ![](/help/assets/screenshot2028117229.png)
 
-   执行上述命令后，等待 `webpack compiled` 消息后，您将被重定向到AEM登录页面。
+   执行上述命令后，请等待`webpack compiled`消息，您将被重定向到AEM登录页面。
 
-1. 单击 **本地登录（仅管理任务）** 在AEM登录页面上。
+1. 在AEM登录页面上单击&#x200B;**本地登录（仅管理任务）**。
 1. 输入已创建本地用户的凭据，表单将显示在浏览器选项卡中。
 
    >[!NOTE]
@@ -382,7 +382,7 @@ ht-degree: 85%
 
 1. 在浏览器中打开 AEM Forms 管理界面。例如，[https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/forms.html/content/dam/formsanddocuments](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments)。
 
-1. 选择 **contactact** 表单并单击 **编辑。**&#x200B;这将在自适应表单编辑器中打开表单。
+1. 选择&#x200B;**contacts**&#x200B;表单，然后单击&#x200B;**编辑。**&#x200B;这将在自适应表单编辑器中打开表单。
 
 
 1. 选择&#x200B;**电话号码**&#x200B;字段并单击工具栏中的&#x200B;**编辑图标（铅笔图标）**。如果您看不到弹出工具栏，请单击右上角的&#x200B;**编辑**&#x200B;按钮（**预览**&#x200B;按钮左侧）以切换到编辑模式。

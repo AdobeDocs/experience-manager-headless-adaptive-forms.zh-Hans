@@ -10,8 +10,8 @@ hide: false
 exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 65%
+source-wordcount: '1175'
+ht-degree: 67%
 
 ---
 
@@ -22,15 +22,15 @@ AEM Formsas a Cloud Service提供了一个用户友好的编辑器，用于创�
 >[!NOTE]
 >
 > 
->如果您不熟悉Headless自适应Forms，Adobe建议您 [使用入门套件创建和发布Headless表单](create-and-publish-a-headless-form.md) 教程：了解基础知识，并在为Headless表单使用自适应Forms编辑器之前手工制作Headless自适应表单。
+>如果您不熟悉Headless自适应Forms，Adobe建议先阅读[使用入门套件创建和发布Headless表单](create-and-publish-a-headless-form.md)教程，了解基础知识并手工制作Headless自适应表单，然后再对Headless表单使用自适应Forms编辑器。
 
 执行以下步骤以使用自适应Forms编辑器创建Headless自适应表单：
 
-## 开始之前:
+## 开始之前：
 
 您需要以下各项才能使用自适应Forms编辑器创建自适应表单：
 
-**对于AEM 6.5 Forms：**
+对于AEM 6.5 Forms：****
 
 * 访问AEM 6.5.16.0或更高版本Forms创作实例。
 
@@ -40,26 +40,26 @@ AEM Formsas a Cloud Service提供了一个用户友好的编辑器，用于创�
 
 * 基于核心组件的模板的自适应表单主题
 
-* 将您的用户添加到 [!DNL forms-users] 组。 [!DNL forms-users]组的成员具有创建自适应表单的权限。
+* 将您的用户添加到[!DNL forms-users]组。 [!DNL forms-users]组的成员有权创建自适应表单。
 
 
-**对于AEM Formsas a Cloud Service：**
+AEM Forms的&#x200B;**as a Cloud Service：**
 
-* 访问 [AEM Formsas a Cloud Service创作实例](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-forms-cloud-service.html?lang=en) 或 [本地AEM Formsas a Cloud ServiceSDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=en) 环境。
+* 访问[AEM Formsas a Cloud Service创作实例](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-forms-cloud-service.html?lang=en)或[本地AEM Formsas a Cloud ServiceSDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=en)环境。
 
 * **自适应表单模板**：模板提供基本结构并定义自适应表单的外观（版面和样式）。它的预格式化的组件包含某些属性和内容结构。它还提供用于定义主题和提交操作的选项。主题定义外观，提交操作定义在提交自适应表单时执行的操作。例如，将收集到的数据发送到数据源。Cloud Service 提供一个名为 blank 的 OOTB 模板：
 
    * `blank Adaptive Forms (Core Components)` 模板包含在每个新的 AEM Forms as a Cloud Service 项目中。
-   * 您还可以 [创建新的自适应Forms（核心组件）模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/template-editor.html) 从头开始。
+   * 您还可以[从头开始创建新的自适应Forms （核心组件）模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/template-editor.html)。
 
 * **自适应表单主题**：主题包含组件和面板的样式详细信息。样式包括背景颜色、状态颜色、透明度、对齐方式和大小等属性。在应用主题时，指定的样式会反映在相应的组件上。`Canvas` 模板包含在每个新的 AEM Forms as a Cloud Service 项目中。
 
-* **权限**：将用户添加到[!DNL forms-users]组。[!DNL forms-users]组的成员具有创建自适应表单的权限。有关特定于表单的用户组的详细列表，请参阅 [组和权限](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/forms-groups-privileges-tasks.html).
+* **权限**：将用户添加到[!DNL forms-users]组。[!DNL forms-users]组的成员具有创建自适应表单的权限。有关表单特定用户组的详细列表，请参阅[组和权限](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/forms-groups-privileges-tasks.html)。
 
 
 ## 创建自适应表单  {#create-an-adaptive-form-components}
 
-1. 登录 [!DNL Experience Manager Forms] 创作实例。
+1. 登录您的[!DNL Experience Manager Forms]创作实例。
 
 1. 在 Experience Manager 登录页面上输入您的凭据。登录后，在左上角，点按 **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL 表单]** > **[!UICONTROL 表单和文档]**。
 
@@ -79,7 +79,7 @@ AEM Formsas a Cloud Service提供了一个用户友好的编辑器，用于创�
 
    * **表单数据模型**：[表单数据模型](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html)可让您将来自不同的数据源的实体和服务集成到自适应表单中。如果您创建的自适应表单需要从多个数据源获取数据和向多个数据源写入数据，请选择表单数据模型。
 
-   * **JSON架构**： [JSON架构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/adaptive-form-json-schema-form-model.html?lang=en) 自适应表单提供关联JSON架构（表示正在生成或使用的数据的结构）的功能，从而允许与贵组织的后端系统无缝集成。 利用此关联，作者可以使用架构的元素将内容动态添加到自适应表单。在创作过程中，可以在内容浏览器的“数据模型对象”选项卡中轻松访问架构元素，并且所有字段将自动添加到任何新创建的自适应表单中。
+   * **JSON架构**： [JSON架构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/adaptive-form-json-schema-form-model.html?lang=en)自适应表单允许通过提供关联JSON架构的功能（表示正在生成或使用的数据的结构），与贵组织的后端系统无缝集成。 利用此关联，作者可以使用架构的元素将内容动态添加到自适应表单。在创作过程中，可以在内容浏览器的“数据模型对象”选项卡中轻松访问架构元素，并且所有字段将自动添加到任何新创建的自适应表单中。
 
    默认情况下，关联的 JSON 架构的所有字段都将自动选定并转换为相应的自适应表单组件，从而简化创作过程。该向导可让您使用复选框选择性地选定应包含在自适应表单中的字段，更加方便。
 
@@ -104,11 +104,11 @@ AEM Formsas a Cloud Service提供了一个用户友好的编辑器，用于创�
 
 ## 查看自适应表单的JSON演绎版 {#preview-form}
 
-选择自适应表单并点按 **预览**. 此时会出现窗体预览。 要查看表单的表单定义(JSON)，请使用.model.json替换URL中的.html扩展名
+选择自适应表单并点按&#x200B;**预览**。 此时会出现窗体预览。 要查看表单的表单定义(JSON)，请使用.model.json替换URL中的.html扩展名
 
-例如， http://[author-server]：[端口]/editor.html/content/forms/af/contact-us.model.json
+例如，http://[author-server]：[port]/editor.html/content/forms/af/contact-us.model.json
 
-您可以使用Headless自适应Forms [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition) 用于获取表单定义(JSON)并在应用程序中使用它的API。
+您可以使用Headless自适应Forms [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition) API获取表单定义(JSON)并在应用程序中使用它。
 
 ![查看表单定义(JSOI)](assets/json-definantion.png)
 

@@ -31,4 +31,4 @@ Raya Tan是一个以自然美景和旅游经济繁荣而闻名的国家的外交
 
 游客最常使用的表格是“联系我们”表格，用于询问各种问题。 因此，外交部已选择开始使用此表单实施Headless自适应表单方法。 本教程将指导您使用此新架构完成创建“联系我们”表单的过程。 最终结果将如下所示：
 
-![联系美国Headless自适应表单](assets/contact-us-headless-adaptive-forms.png)
+![联系我们Headless自适应表单](assets/contact-us-headless-adaptive-forms.png)

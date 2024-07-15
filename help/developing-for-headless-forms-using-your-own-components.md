@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 使用您自己的组件开发Headless表单 {#developing-for-headless-forms-using-your-own-components}
 
-<span class="preview"> 这是 **工作进行中** 文章。</span>
+<span class="preview">这是一个&#x200B;**正在进行中的工作**&#x200B;文章。</span>
