@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: headless，自适应表单，架构
 hide: false
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
-source-git-commit: 56ad9d8fefc4933847061ba6007ad367984bd2e0
+source-git-commit: c46ac28e490a09d6f563c4b5673d30a53c277a69
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -62,19 +62,21 @@ A typical Headless adaptive forms architecture constitutes an Adobe Experience M
 
 以下工具可帮助您创建Headless自适应表单并将其集成到应用程序：
 
-**Forms Web SDK（客户端运行时）**： Forms Web SDK是客户端JavaScript库。 它允许您对表单字段应用客户端验证，维护表单的状态，并提供挂接以将表单与UI层或自适应表单渲染组件连接。 它允许客户验证应用于表单各个字段的限制，并挂接以将表单的JSON结构连接到UI框架。 Forms Web SDK具有以下组件：
+**Forms Web SDK（客户端运行时）**： Forms Web SDK是客户端JavaScript库。 它允许您对表单字段应用客户端验证，维护表单的状态，并提供挂接以将表单与UI层或自适应表单渲染组件连接。 它允许客户验证应用于表单各个字段的限制，并挂接以将表单的JSON结构连接到UI框架。 Forms Web SDK包含以下组件：
 
 * **业务规则处理器**：业务规则处理器接受表单JSON结构作为输入，管理JSON中存在的表单字段状态、执行规则和事件处理程序。
 * **React绑定器**：提供挂接控制器以向窗体组件添加状态。 在预填表单时它也很有用。
 * **组件库**：它提供React Spectrum组件，并在React Binder模块中使用挂接向这些组件添加状态。
 
-除了提供API以验证应用于表单各个字段的约束之外，Forms Web SDK还提供挂钩，将Headless自适应表单连接到UI框架。 它还为Headless自适应表单提供&#x200B;React渲染器，以帮助将Headless自适应表单集成到应用程序。 以下Web SDK组件可用：
+除了提供用于验证应用于表单各个字段的约束的API之外，Forms Web SDK还提供挂钩，将Headless自适应表单连接到UI框架。 它还为Headless自适应表单提供&#x200B;React渲染器，以帮助将Headless自适应表单集成到应用程序。 可以使用以下Web SDK组件：
 
 * **[@aemforms/af-react-components](https://www.npmjs.com/package/@aemforms/af-react-components)**
 * **[@aemforms/af-react-renderer](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
 * **[@aemforms/af-core](https://www.npmjs.com/package/@aemforms/af-core)**
 
 所有这些组件都包含在AEM原型中。 为Headless自适应表单创建AEM Archetype 37或更高版本项目时，项目中会包含以上列出库的最新版本。
+
+* **代码游乐场**： [代码游乐场](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)是一个交互式环境，旨在供开发人员试验、了解和测试Headless自适应Forms的功能。
 
 **已启动应用程序**：Adobe还发布了已启动应用程序，可帮助您快速启动Headless自适应表单。
 
@@ -86,8 +88,9 @@ Core-Components: It enables use to render an Adaptive Form using JSON structure.
 
 **Visual Studio代码扩展**： [Visual Studio代码扩展](visual-studio-code-extension-for-headless-adaptive-forms.md)以帮助创建有效的JSON结构。 它为JSON表单结构以及JSON结构的添加、删除或重命名组件等常用函数提供IntelliSense支持和验证。
 
-**自适应Forms版本2.0规范**：自适应Forms版本2.0规范提供了有关可用于定义Headless自适应表单的所有组件、约束和方法的详细信息。 规范以[PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf)格式提供。
-
 **HTTP和JavaScript API**： [HTTP API](https://opensource.adobe.com/aem-forms-af-runtime/api/)允许您列出、提取、验证、提交和跟踪Headless表单的提交状态。 [JS API](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/)可帮助您将Headless自适应表单与任何基于JavaScript的UI框架结合使用。
 
 **JSON公式**：它是Forms表达式语法的实现，可帮助您查询JSON结构并为Headless自适应表单创建规则。 语法是类似电子表格的函数和运算符以及[JMESPath](https://jmespath.org/)一种JSON查询语言的混合。 您可以使用[游乐场](https://opensource.adobe.com/json-formula/dist/index.html)来探索JSON公式语法和功能。
+
+**自适应Forms版本2.0规范**：自适应Forms版本2.0规范提供了有关可用于定义Headless自适应表单的所有组件、约束和方法的详细信息。 规范以[PDF](/help/assets/headless-adaptive-forms-specification.pdf)格式提供。
+

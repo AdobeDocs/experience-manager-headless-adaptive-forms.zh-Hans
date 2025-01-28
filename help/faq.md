@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: headless，自适应表单，常见问题解答
 hide: false
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: c46ac28e490a09d6f563c4b5673d30a53c277a69
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 1%
@@ -46,7 +46,7 @@ archetype project to deploy the finished Headless adaptive forms and correspondi
 
 ## 是否可以将Headless自适应表单与自定义框架结合使用？
 
-Headless自适应表单基于[标准规范](/help/assets/Headless-Adaptive-Form-Specification.pdf)。 您可以扩展规范以使用它来构建自定义组件。 例如，Chakra UI、Vue.js等的组件。
+Headless自适应表单基于[标准规范](/help/assets/headless-adaptive-forms-specification.pdf)。 您可以扩展规范以使用它来构建自定义组件。 例如，Chakra UI、Vue.js等的组件。
 
 ## Headless自适应表单是否支持层叠字段？
 
@@ -63,7 +63,7 @@ At this moment, you use the Adaptive Form Editor to specify the JSON structure a
 
 ## 我能否将Headless自适应表单与AngularSPA结合使用？
 
-您可以使用Web SDK将Headless自适应表单与AngularSPA集成。 它独立于任何框架。 您可以使用React SDK作为参考。
+您可以使用Web SDK将Headless自适应表单与AngularSPA集成。 它独立于任何框架。 您可以将React SDK用作参考。
 
 <!-- ## Should the `-r prerelease` switch be used every time to start the AEM SDK instance or only for the first time?
 
