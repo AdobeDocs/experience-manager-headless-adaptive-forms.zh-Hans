@@ -23,9 +23,9 @@ ht-degree: 0%
 
 * 在本地计算机上安装[Node.js 16.13.0或更高版本](https://nodejs.org/en/download/)。 如果您是初次使用Node.js，请参阅[如何安装Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs)。
 
-* 创建AEM as a Cloud Service程序：按照[创建程序](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program)文章中的步骤1-7为您的组织创建程序。
+* 创建AEM as a Cloud Service程序：按照[创建程序](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hans&#create-program)文章中的步骤1-7为您的组织创建程序。
 
-* 为您的Cloud Service计划[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?cloud-environments)启用预发布渠道。
+* 为您的Cloud Service计划[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans&cloud-environments)启用预发布渠道。
 
 ## 设置工作流
 
@@ -41,7 +41,7 @@ ht-degree: 0%
   1.登录到<a href="https://experience.adobe.com/" > https://experience.adobe.com/ </a>并选择<b>Experience Manager</b>选项。
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hans&#create-program">
       <img alt="AEM as a Cloud Service项目" src="assets/cloud-manager-experience-manager.png">
     </a>
     <br>
@@ -52,7 +52,7 @@ ht-degree: 0%
   2.对于<b> Cloud Manager </b>选项，单击<b>启动。 </b>将显示您组织的项目列表。
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hans&#create-program">
       <img alt="AEM as a Cloud Service项目" src="assets/cloud-manager-experience-manager-launch.png">
     </a>
     <br>
@@ -63,7 +63,7 @@ ht-degree: 0%
     3.对于您的项目，点按……图标，然后选择<b>编辑项目</b>选项。 将显示一个对话框。 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hans&#create-program">
       <img alt="AEM as a Cloud Service项目" src="assets/edit-program.png">
     </a>
     <br>
@@ -74,7 +74,7 @@ ht-degree: 0%
     4.在“编辑程序”对话框中，转到<b>解决方案和加载项选项卡</b>，选择<b> Forms — 数字注册</b>选项，然后点按<b>更新</b>。 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hans&#create-program">
       <img alt="AEM as a Cloud Service项目" src="assets/program-solution-addons.png">
     </a>
     <br>
@@ -99,7 +99,7 @@ ht-degree: 0%
   1.在项目的管道框中，点按<b>访问存储库信息。 </b>显示包含存储库信息的对话框 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hans&#create-program">
       <img alt="AEM as a Cloud Service项目" src="assets/git-repo.png">
     </a>
     <br>
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 原型项目是一个基于maven的模板。 它根据最佳实践创建一个最小的项目来开始使用Headless自适应表单。 它还包含用于Formsas a Cloud Service的核心Headless自适应表单功能。 必须创建和部署基于37或更高版本的原型项目。
 ®®？
-根据操作系统，运行maven命令以创建Experience Manager Formsas a Cloud Service项目。 使用原型版本37或更高版本。 请参阅[Archetype文档](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html)以查找最新版本的Archetype。
+根据操作系统，运行maven命令以创建Experience Manager Formsas a Cloud Service项目。 使用原型版本37或更高版本。 请参阅[Archetype文档](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html?lang=zh-Hans)以查找最新版本的Archetype。
 
 +++ Microsoft® Windows
 
@@ -220,7 +220,7 @@ ht-degree: 0%
   1.登录到<a href="https://experience.adobe.com/" > https://experience.adobe.com/ </a>并选择<b>Experience Manager</b>选项。
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hans&#create-program">
       <img alt="AEM as a Cloud Service项目" src="assets/cloud-manager-experience-manager.png">
     </a>
     <br>
@@ -231,7 +231,7 @@ ht-degree: 0%
   2.对于<b> Cloud Manager </b>选项，单击<b>启动。 </b>将显示您组织的项目列表。 打开您的项目。 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hans&#create-program">
       <img alt="AEM as a Cloud Service项目" src="assets/cloud-manager-experience-manager-launch.png">
     </a>
     <br>
@@ -242,7 +242,7 @@ ht-degree: 0%
     3.对于您的管道，点按……图标，然后选择<b>运行</b>选项。 如果提示运行管道，请点按<b>运行</b>并等待管道<b>状态</b>更改为<b>已完成</b>。  
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hans&#create-program">
       <img alt="AEM as a Cloud Service项目" src="assets/run-build-pipeline.png">
     </a>
     <br>

@@ -23,7 +23,7 @@ ht-degree: 13%
 
 在AEM 6.5 Forms环境中启用Headless自适应Forms之前，
 
-* [升级到AEM 6.5 Forms Service Pack 16 (6.5.16.0)或更高版本](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html)。
+* [升级到AEM 6.5 Forms Service Pack 16 (6.5.16.0)或更高版本](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=zh-Hans)。
 
 * 安装[Apache Maven](https://maven.apache.org/download.cgi)的最新版本。
 
@@ -115,7 +115,7 @@ ht-degree: 13%
 
    成功构建AEM原型项目后，将生成AEM包。 您可以在[AEM原型项目文件夹]\all\target\[appid].all-[version].zip中找到该包
 
-1. 使用[包管理器](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en)在所有Author和Publish实例上部署[AEM项目文件夹]\all\target\[appid].all-[version].zip包。
+1. 使用[包管理器](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans)在所有Author和Publish实例上部署[AEM项目文件夹]\all\target\[appid].all-[version].zip包。
 
 >[!NOTE]
 >
