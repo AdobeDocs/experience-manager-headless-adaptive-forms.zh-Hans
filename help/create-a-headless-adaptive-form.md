@@ -30,7 +30,7 @@ AEM Formsas a Cloud Service提供了一个用户友好的编辑器，用于创�
 
 您需要以下各项才能使用自适应Forms编辑器创建自适应表单：
 
-对于AEM 6.5 Forms：****
+对于AEM 6.5 Forms：**&#x200B;**
 
 * 访问AEM 6.5.16.0或更高版本Forms创作实例。
 

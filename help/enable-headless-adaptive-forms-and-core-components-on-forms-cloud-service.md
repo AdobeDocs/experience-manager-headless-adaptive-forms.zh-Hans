@@ -36,7 +36,7 @@ ht-degree: 64%
 >[!NOTE]
 >
 >
-> Adobe提供了自适应Forms [简易工具包（React应用程序）](create-and-publish-a-headless-form.md)，以帮助开发人员快速开始进行Headless自适应Forms开发，而无需在AEM Formsas a Cloud Service环境中启用Headless自适应Forms。 稍后在快速动手开发Headless表单后，您可以在Formsas a Cloud Service环境中启用Headless自适应Forms](create-and-publish-a-headless-form.md)。[
+> Adobe提供了自适应Forms [简易工具包（React应用程序）](create-and-publish-a-headless-form.md)，以帮助开发人员快速开始进行Headless自适应Forms开发，而无需在AEM Formsas a Cloud Service环境中启用Headless自适应Forms。 稍后在快速动手开发Headless表单后，您可以在Formsas a Cloud Service环境中启用Headless自适应Forms[&#128279;](create-and-publish-a-headless-form.md)。
 
 ## 为AEM Formsas a Cloud Service环境启用Headless自适应Forms
 
