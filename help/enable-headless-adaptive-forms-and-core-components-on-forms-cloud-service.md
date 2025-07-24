@@ -303,7 +303,7 @@ ht-degree: 52%
       git push origin
       ```
 
-1. 将文件提交到 Git 存储库后，[运行管道](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/using/code-deployment)。
+1. 将文件提交到 Git 存储库后，[运行管道](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-manager/content/using/code-deployment)。
 
    管道运行成功后，将为相应的环境启用自适应Forms核心组件。 此外，还将自适应表单（核心组件）模板和 Canvas 3.0 主题添加到您的 Forms as a Cloud Service 环境，并为您提供自定义和创建基于核心组件的自适应表单的选项。
 

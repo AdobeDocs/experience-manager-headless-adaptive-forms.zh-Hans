@@ -28,7 +28,7 @@ Headless自适应表单可帮助您执行以下操作：
 * 使用您选择的编程语言构建高质量的多渠道表单。
 * 将表单本机集成到桌面和移动设备应用程序、网站和聊天应用程序。
 * 对表单应用程序重用您的专有UI组件。
-* 使用Adobe Experience Manager Forms[的](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)强大功能。
+* 使用Adobe Experience Manager Forms[的](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)强大功能。
 
 此外，您可以自由开发自己的组件，以使用您选择的任何UI框架和编程语言呈现表单。 您还可以使用现成的React组件渲染Headless自适应表单。
 

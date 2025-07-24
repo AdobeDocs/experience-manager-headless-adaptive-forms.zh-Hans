@@ -75,7 +75,7 @@ AEM as a Cloud Service SDK (AEM SDK)为开发人员创建和测试Headless自适
 
    >[!NOTE]
    >
-   > 不要双击.jar文件来启动它。 它导致[错误](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime#troubleshooting-double-click)。
+   > 不要双击.jar文件来启动它。 它导致[错误](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime#troubleshooting-double-click)。
 
 1. 打开命令提示符：
    * 在Windows上，使用&#x200B;**以管理员身份运行**&#x200B;选项在提升的模式下打开命令提示符。
