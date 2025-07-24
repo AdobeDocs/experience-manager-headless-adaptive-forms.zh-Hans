@@ -1,8 +1,6 @@
 ---
-title: 在AEM Formsas a Cloud Service上启用Headless自适应Forms
-seo-title: Step-by-Step Guide for enabling Headless Adaptive Forms on AEM Forms as a Cloud Service
-description: 了解如何使用我们的分步指南在AEM Forms上启用Headless自适应表单as a Cloud Service。 我们的教程将引导您完成整个过程，使您可以轻松地为您的 AEM Forms 环境启用这一强大的功能。
-seo-description: Learn how to enable headless adaptive forms on AEM Forms as a Cloud Service with our step-by-step guide. Our tutorial walks you through the process, making it easy to enable this powerful feature for your AEM Forms environment.
+title: 在AEM Forms as a Cloud Service上启用Headless自适应Forms
+description: 分步指南介绍了如何在AEM Forms as a Cloud Service中启用Headless自适应表单，从而简化环境中的设置和激活。
 solution: Experience Manager Forms
 feature: Adaptive Forms
 topic: Headless
@@ -13,44 +11,45 @@ docset: CloudService
 hide: true
 hidefromtoc: true
 exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
-source-git-commit: 999c3d092d03d7a82363bc94ce79ceb33bf0df7e
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 64%
+source-wordcount: '886'
+ht-degree: 52%
 
 ---
 
-# 在AEM Formsas a Cloud Service上启用Headless自适应Forms {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
+# 在AEM Forms as a Cloud Service上启用Headless自适应Forms {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
 
-在AEM Formsas a Cloud Service上启用Headless自适应Forms，允许您开始创建、发布和使用您的AEM FormsCloud Service实例向多个渠道交付Headless Forms。 您需要具备启用了自适应表单核心组件的环境才能使用 Headless 自适应表单。
+在AEM Forms as a Cloud Service上启用Headless自适应Forms，允许您开始使用AEM Forms Cloud Service实例创建、发布和向多个渠道交付Headless Forms。 您需要具备启用了自适应表单核心组件的环境才能使用 Headless 自适应表单。
 
 ## 注意事项
 
-* 当您创建新的AEM Formsas a Cloud Service程序时，[已为您的环境启用Headless自适应Forms](#are-adaptive-forms-core-components-enabled-for-my-environment)。
+* 当您创建新的AEM Forms as a Cloud Service程序时，[已为您的环境启用Headless自适应Forms](#are-adaptive-forms-core-components-enabled-for-my-environment)。
 
-* 如果您拥有的是其中[未启用](#enable-components)核心组件的旧版 Forms as a Cloud Service 程序，则您可[将自适应表单核心组件依赖项添加到](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment)您的 AEM as a Cloud Service 存储库，并将该存储库部署到您的 Cloud Service 环境以启用 Headless 自适应表单。
+* 如果您运行的是核心组件[未启用](#enable-components)的旧版Forms as a Cloud Service程序，请先[将自适应Forms核心组件依赖项添加到](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment)您的Cloud Service存储库。 将更新的存储库部署到每个环境以启用Headless自适应表单。
 
-* 如果您的现有Cloud Service环境提供了[创建基于核心组件的自适应Forms](create-a-headless-adaptive-form.md)的选项，则已为您的环境启用Headless自适应Forms，您可以将基于核心组件的自适应Forms作为Headless表单提供给需要Headless表示自适应Forms的移动、Web、本机应用程序和服务等渠道。
-
+* 如果您的Cloud Service环境已允许您[创建基于核心组件的自适应表单](create-a-headless-adaptive-form.md)，则将自动启用Headless自适应表单。 然后，您可以将这些表单作为Headless体验提供给移动设备、Web、本机应用程序或任何需要它们的服务。
 
 >[!NOTE]
 >
 >
-> Adobe提供了自适应Forms [简易工具包（React应用程序）](create-and-publish-a-headless-form.md)，以帮助开发人员快速开始进行Headless自适应Forms开发，而无需在AEM Formsas a Cloud Service环境中启用Headless自适应Forms。 稍后在快速动手开发Headless表单后，您可以在Formsas a Cloud Service环境中启用Headless自适应Forms[&#128279;](create-and-publish-a-headless-form.md)。
+> Adobe提供了一个自适应Forms [简易工具包（React应用程序）](create-and-publish-a-headless-form.md)，以帮助开发人员快速开始进行Headless自适应Forms开发，而无需在AEM Forms as a Cloud Service环境中启用Headless自适应Forms。 在快速动手开发Headless表单之后，您可以稍后在Forms as a Cloud Service环境中启用Headless自适应Forms[。](create-and-publish-a-headless-form.md)
 
-## 为AEM Formsas a Cloud Service环境启用Headless自适应Forms
+## 为AEM Forms as a Cloud Service环境启用Headless自适应Forms
 
-按照列出的顺序，执行以下步骤，为AEM Formsas a Cloud Service环境启用Headless自适应Forms
+按照列出的顺序，执行以下步骤，为AEM Forms as a Cloud Service环境启用Headless自适应Forms
 
-
+<!-- Missing image ALT tag -->
 ![](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service.png)
 
 
-## 1. 克隆您的 AEM Forms as a Cloud Service Git 存储库 {#clone-git-repository}
+## &#x200B;1. 克隆您的 AEM Forms as a Cloud Service Git 存储库 {#clone-git-repository}
 
 1. 登录到 [Cloud Manager](https://my.cloudmanager.adobe.com/) 并选择您的组织和计划。
 
-1. 从您的&#x200B;**程序概述**&#x200B;页面导航到&#x200B;**管道**&#x200B;卡片，单击&#x200B;**访问存储库信息**&#x200B;按钮以访问和管理您的 Git 存储库。该页面包括以下信息：
+1. 从&#x200B;**项目概述**&#x200B;页面导航到&#x200B;**管道**&#x200B;信息卡。
+
+1. 单击&#x200B;**访问存储库信息**&#x200B;按钮以访问和管理您的Git存储库。 该页面包括以下信息：
 
    * Cloud Manager Git 存储库的 URL。
    * Git 存储库的凭据（用户名和密码）Git 用户名。
@@ -66,7 +65,7 @@ ht-degree: 64%
    出现提示时，提供凭据。随后将该存储库克隆到您的本地计算机。
 
 
-## 2. 将自适应表单核心组件依赖项添加到您的 Git 存储库 {#add-adaptive-forms-core-components-dependencies}
+## &#x200B;2. 将自适应表单核心组件依赖项添加到您的 Git 存储库 {#add-adaptive-forms-core-components-dependencies}
 
 1. 在纯文本代码编辑器中打开您的 Git 存储库文件夹。例如 VS Code。
 1. 打开 `[AEM Repository Folder]\pom.xml` 文件以供编辑。
@@ -304,16 +303,16 @@ ht-degree: 64%
       git push origin
       ```
 
-1. 将文件提交到 Git 存储库后，[运行管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html?lang=zh-Hans)。
+1. 将文件提交到 Git 存储库后，[运行管道](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/using/code-deployment)。
 
-   成功运行管道后，即为相应的环境启用自适应表单核心组件。此外，还将自适应表单（核心组件）模板和 Canvas 3.0 主题添加到您的 Forms as a Cloud Service 环境，并为您提供自定义和创建基于核心组件的自适应表单的选项。
+   管道运行成功后，将为相应的环境启用自适应Forms核心组件。 此外，还将自适应表单（核心组件）模板和 Canvas 3.0 主题添加到您的 Forms as a Cloud Service 环境，并为您提供自定义和创建基于核心组件的自适应表单的选项。
 
 
 ## 常见问题解答 {#faq}
 
-### 什么是核心组件？ {#core-components}
+### 核心组件包括哪些？ {#core-components}
 
-[核心组件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hans)是一组用于 AEM 的标准化 Web 内容管理 (WCM) 组件，以缩短您网站的开发时间并降低维护成本。
+[核心组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/introduction)是一组适用于AEM的标准化Web内容管理(WCM)组件，可加快开发速度并降低网站的维护成本。
 
 ### 启用核心组件时将添加哪些功能？ {#core-components-capabilities}
 

@@ -1,15 +1,14 @@
 ---
 title: 在AEM 6.5 Forms上启用Headless自适应Forms
 seo-title: Step-by-Step Guide for enabling Headless Adaptive Forms on AEM 6.5 Forms
-description: 了解如何使用我们的分步指南在AEM 6.5 Forms上启用Headless自适应表单。 我们的教程将指导您完成该过程，让您能够轻松将此强大功能集成到您的网站中并改进用户体验。
-seo-description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.
+description: 了解如何使用Adobe的分步指南在AEM 6.5 Forms上启用Headless自适应表单。 本教程将指导您完成该过程，以便您可以轻松将此强大功能集成到您的网站中并改善用户体验。
 contentOwner: Khushwant Singh
 role: Admin
 exl-id: e1a5e7e0-d445-4cca-b8d7-693d9531f075
-source-git-commit: d791daa149d0380b03bb6ba9776db47440feea02
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 12%
+source-wordcount: '728'
+ht-degree: 8%
 
 ---
 
@@ -17,13 +16,13 @@ ht-degree: 12%
 
 要在您的AEM 6.5 Forms环境中启用Headless自适应Forms，请设置一个基于AEM Archetype 41或更高版本的项目，并将其部署到您的所有创作和发布实例。
 
-通过将基于AEM Archetype 41或更高版本的项目部署到AEM 6.5 Forms实例，您可以[创建基于核心组件的自适应Forms](create-a-headless-adaptive-form.md)。 这些表单以JSON格式表示，用作Headful和Headless自适应Forms，从而允许在一系列渠道（包括移动、Web和本机应用程序）中提供更大的灵活性和自定义设置。
+通过将基于AEM Archetype 41或更高版本的项目部署到AEM 6.5 Forms实例，您可以[创建基于核心组件的自适应Forms](create-a-headless-adaptive-form.md)。 这些表单以JSON格式表示，用作`Headful`和`Headless`自适应Forms，从而允许在各种渠道（包括移动应用程序、Web和本机应用程序）中提供更大的灵活性和自定义设置。
 
 ## 先决条件 {#prerequisites}
 
 在AEM 6.5 Forms环境中启用Headless自适应Forms之前，
 
-* [升级到AEM 6.5 Forms Service Pack 16 (6.5.16.0)或更高版本](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=zh-Hans)。
+* [升级到AEM 6.5 Forms Service Pack 16 (6.5.16.0)或更高版本](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/aem-forms-current-service-pack-installation-instructions)。
 
 * 安装[Apache Maven](https://maven.apache.org/download.cgi)的最新版本。
 
@@ -35,7 +34,7 @@ ht-degree: 12%
 
 1. 以管理员身份登录到您的计算机，托管并运行AEM 6.5 Forms实例。
 1. 打开命令提示符或终端。
-1. 运行以下命令以创建基于AEM Archetype 41的项目：
+1. 运行以下命令可创建基于AEM Archetype 41的项目：
 
    * Microsoft Windows
 
@@ -51,7 +50,7 @@ ht-degree: 12%
       -D aemVersion="6.5.23" 
    ```
 
-   * Linux或Apple macOS
+   * Linux®或Apple macOS
 
    ```Shell
       mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
@@ -67,7 +66,7 @@ ht-degree: 12%
 
    执行上述命令时，请务必考虑以下事项：
 
-   * 更新命令以反映环境的特定值，包括appTitle、appId和groupId。 此外，请将includeFormsenrollment的值设置为“y”。 如果您使用Forms Portal，请设置&#x200B;_includeExamples=y_&#x200B;选项以将Forms Portal核心组件包含在您的项目中。
+   * 更新命令以反映环境的特定值，包括appTitle、appId和groupId。 此外，将includeFormsenrollment的值设置为`y`。 如果您使用Forms Portal，请设置&#x200B;_includeExamples=y_&#x200B;选项以将Forms Portal核心组件包含在您的项目中。
 
 
 1. （仅适用于基于Archetype版本41的项目）创建AEM Archetype项目后，请为基于核心组件的自适应Forms启用主题。 要启用主题，请执行以下操作：
@@ -112,22 +111,22 @@ ht-degree: 12%
 
    成功构建AEM原型项目后，将生成一个AEM包。 您可以在[AEM原型项目文件夹]\all\target\[appid].all-[version].zip中找到该包
 
-1. 使用[包管理器](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans)在所有创作实例和发布实例上部署[AEM原型项目文件夹]\all\target\[appid].all-[version].zip包。
+1. 使用[包管理器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)在所有创作实例和发布实例上部署[AEM原型项目文件夹]\all\target\[appid].all-[version].zip包。
 
 >[!NOTE]
 >
 >
 >
->如果您在发布实例上访问登录对话框时遇到困难，无法通过包管理器安装包，请尝试通过以下URL登录： http://[发布服务器URL]：[PORT]/system/console。 这允许您登录“发布”实例，从而允许您继续安装过程。
+>如果在通过包管理器访问发布实例的登录对话框时遇到困难，请尝试通过以下URL登录： `http://[Publish Server URL]`：[PORT]/system/console。 通过此过程可登录“发布”实例，并允许您继续安装过程。
 
 
 为您的环境启用了核心组件。 将基于空核心组件的自适应表单模板和画布3.0主题部署到您的环境，使您能够[创建基于核心组件的自适应Forms](create-a-headless-adaptive-form.md)。
 
 ## 常见问题解答
 
-### 什么是核心组件？
+### 核心组件包括哪些？
 
-[核心组件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hans)是一组用于 AEM 的标准化 Web 内容管理 (WCM) 组件，以缩短您网站的开发时间并降低维护成本。
+[核心组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/introduction)是一组适用于AEM的标准化Web内容管理(WCM)组件，可加快开发速度并降低网站的维护成本。
 
 ### 在启用核心组件上添加了哪些功能？
 

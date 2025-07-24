@@ -9,10 +9,10 @@ role: Admin, Developer
 level: Beginner, Intermediate
 hide: false
 exl-id: bfb7e688-d2be-4aaa-ac9b-147cbd74b516
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 5%
+source-wordcount: '127'
+ht-degree: 6%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 5%
 
 ### 问题
 
-当您使用`mvn -PautoInstallPackage clean install`或类似命令部署AEM Archype项目时，该项目无法部署。
+当您使用`mvn -PautoInstallPackage clean install`或类似命令部署AEM项目时，该项目无法部署。
 
 ### 原因
 
-发生此情况可能是因为node.js或NPM的版本不受支持或安装损坏。
+由于`node.js`或`NPM`的版本不受支持或安装损坏，可能发生这种情况。
 
 ### 解决方案
 
 1. 从您的环境中完全[删除当前安装的Node.JS](https://khushwantsehgal.wordpress.com/2022/06/28/how-to-remove-node-js-completely-from-windows-10/)。
 
-1. 使用NPM安装Node.JS 16.13.0或更高版本。
+1. 安装`node.JS 16.13.0`或更高版本的`NPM`。
 
 1. 重新启动计算机。
 
@@ -41,7 +41,7 @@ ht-degree: 5%
 
 ### 问题
 
-当您使用`mvn clean install`或类似命令部署AEM Archype项目时，该命令无法运行。
+当您使用`mvn clean install`或类似命令部署AEM项目时，该命令无法运行。
 
 ### 原因
 

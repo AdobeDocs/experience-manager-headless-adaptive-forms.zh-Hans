@@ -1,5 +1,5 @@
 ---
-title: 常见问题解答
+title: 有关Headless自适应Forms的常见问题解答
 description: 常见问题解答
 solution: Experience Manager Forms
 feature: Adaptive Forms
@@ -9,18 +9,19 @@ level: Beginner, Intermediate
 keywords: headless，自适应表单，常见问题解答
 hide: false
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
-source-git-commit: c46ac28e490a09d6f563c4b5673d30a53c277a69
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
 
-# 常见问题解答(FAQ) {#headless-adaptive-forms-faq}
+# 常见问题解答（FAQ） {#headless-adaptive-forms-faq}
 
 ## 我是否应该知道React.js才能使用Headless自适应表单？
 
-您可以使用任何框架、库或语言来渲染Headless自适应表单，并使用我们的REST API验证和提交表单。 AF-core库提供的OOTB独立于框架。 为方便起见，提供了OOTB的React-Render和React-component库。 您可以开发自己的组件，而不限于使用这些组件。
+您可以使用任何框架、库或语言来渲染Headless自适应表单，并使用Adobe的REST API来验证和提交表单。 现成提供的AF核心库与框架无关。 为方便起见，也为您提供了现成的React-Render和React-component库。 您可以构建自己的组件；您不仅可以使用提供的组件。
+
 
 <!-- 
 ## Did Adobe release a new AEM Archetype for Headless adaptive forms?
@@ -29,9 +30,9 @@ You can use Archetype 37 with flag `includeFormsheadless` or later flag to creat
 
 -->
 
-## 是否需要Formsas a Cloud Service沙盒才能使用Headless自适应表单？
+## 是否需要Forms as a Cloud Service沙盒才能使用Headless自适应表单？
 
-您可以使用入门应用程序开始开发和设置Headless自适应表单的样式。 您需要Formsas a Cloud Service来托管和提供Headless自适应表单以及后端表单功能。
+您可以使用入门应用程序开始开发和设置Headless自适应表单的样式。 您需要Forms as a Cloud Service来托管和提供Headless自适应表单以及后端表单功能。
 
 <!-- ## Do I need an archetype project to develop Headless adaptive forms?
 
@@ -50,7 +51,7 @@ Headless自适应表单基于[标准规范](/help/assets/headless-adaptive-forms
 
 ## Headless自适应表单是否支持层叠字段？
 
-在级联字段中，第二字段的内容取决于在第一字段中选择的内容。 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behaviour--options&amp;args=formJson.items[0].fieldType：drop-down；formJson.items[0].minimum：！未定义；formJson.items[0].maximum：！未定义；formJson.items[0].label.value：Choose+number+of+options；formJson.items[0].enum[0]：1；formJson.items[0].enum[1]：2；formJson.items[0].enum[2]：3；formJson.items[1].fieldType：down)提供了级联字段的示例。
+在级联字段中，第二个字段的内容取决于在第一字段中选择的内容。 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behaviour--options&args=formJson.items[0].fieldType：drop-down；formJson.items[0].minimum：！未定义；formJson.items[0].maximum：！未定义；formJson.items[0].label.value：Choose+number+of+options；formJson.items[0].enum[0]：1；formJson.items[0].enum[1]：2；formJson.items[0].enum[2]：3；formJson.items[1].fieldType：down)提供了级联字段的示例。
 
 ## Headless自适应表单是否允许使用个性化数据预填表单？
 
@@ -61,9 +62,9 @@ Headless自适应表单允许使用个性化数据预填表单。 [Storybook](ht
 
 At this moment, you use the Adaptive Form Editor to specify the JSON structure and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes.  -->
 
-## 我能否将Headless自适应表单与AngularSPA结合使用？
+## 我能否将Headless自适应表单用于Angular SPA？
 
-您可以使用Web SDK将Headless自适应表单与AngularSPA集成。 它独立于任何框架。 您可以将React SDK用作参考。
+您可以使用Web SDK将Headless自适应表单与Angular SPA集成。 它独立于任何框架。 您可以将React SDK用作参考。
 
 <!-- ## Should the `-r prerelease` switch be used every time to start the AEM SDK instance or only for the first time?
 
@@ -82,7 +83,7 @@ You do not require a license.properties file to run AEM Cloud Service SDK.
 
 ## 是否有任何插件可简化Headless AF的开发？
 
-是，扩展可用于Microsoft Visual Studio Code。 它提供了一种手动创作Headless自适应表单JSON的便捷方法。
+是 — Visual Studio代码扩展允许您在JSON中手动创作Headless自适应表单。
 
 ## Headless自适应表单能否连接到任何CRM以读取或写入数据？
 

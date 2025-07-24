@@ -1,8 +1,8 @@
 ---
 title: 使用事件处理和提交表单Headless自适应表单数据
-description: 使用事件处理和提交表单Headless自适应表单数据
+description: 使用事件处理和提交表单Headless自适应表单数据。
 hide: false
-source-git-commit: ddd353329dfe5b47734d904b9a5e684051becc5b
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
