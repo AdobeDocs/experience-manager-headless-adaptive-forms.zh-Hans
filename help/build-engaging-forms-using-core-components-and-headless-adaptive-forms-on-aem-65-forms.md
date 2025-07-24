@@ -86,9 +86,11 @@ ht-degree: 40%
 1. 为表单创建提交端点：
 
    1. 在新的浏览器标签页中打开 <https://pipedream.com/requestbin>。
+
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
    1. 单击&#x200B;**创建公共 bin** 并复制端点 URL。
+
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
    此特定端点用作提交和查看数据的示例。 在实际生产中，您使用自己的端点或数据源来存储捕获的数据。
@@ -97,13 +99,16 @@ ht-degree: 40%
 
    1. 在第1课中使用的浏览器选项卡中，导航到AEM Forms Web界面，然后导航到&#x200B;**Forms** > **Forms和文档**。
 
-   1. 单击&#x200B;**创建**并选择“自适应表单”。
+   1. 单击&#x200B;**创建**&#x200B;并选择“自适应表单”。
+
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
    1. 从模板选择屏幕中选择&#x200B;**Blank with Core Components**&#x200B;模板，如下所示，然后单击&#x200B;**下一步**。
+
       ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
    1. 将`Contact us`指定为表单的&#x200B;**标题**。 确保表单的&#x200B;**Name**&#x200B;为`contact-us`。
+
       ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
 
    1. 单击&#x200B;**创建**。此时将显示一个对话框。

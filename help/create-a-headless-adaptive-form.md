@@ -30,7 +30,7 @@ AEM Forms as a Cloud Service提供了一个用户友好的编辑器，用于创�
 
 您需要以下各项才能使用自适应Forms编辑器创建自适应表单：
 
-对于AEM 6.5 Forms：****
+对于AEM 6.5 Forms：**&#x200B;**
 
 * 访问AEM 6.5.16.0或更高版本Forms创作实例。
 
@@ -43,7 +43,7 @@ AEM Forms as a Cloud Service提供了一个用户友好的编辑器，用于创�
 * 将您的用户添加到[!DNL forms-users]组。 [!DNL forms-users]组的成员有权创建自适应表单。
 
 
-用于AEM Forms as a Cloud Service的&#x200B;****
+用于AEM Forms as a Cloud Service的&#x200B;**&#x200B;**
 
 * 访问[AEM Forms as a Cloud Service创作实例](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-forms-cloud-service)或[本地AEM Forms as a Cloud Service SDK](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment)环境。
 
