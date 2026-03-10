@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: headless，自适应表单，常见问题解答
 hide: false
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 1%
+source-wordcount: '837'
+ht-degree: 0%
 
 ---
 
@@ -84,6 +84,29 @@ You do not require a license.properties file to run AEM Cloud Service SDK.
 ## 是否有任何插件可简化Headless AF的开发？
 
 是 — Visual Studio代码扩展允许您在JSON中手动创作Headless自适应表单。
+
+## 推荐使用哪种方法处理移动设备表单或离线表单？ {#mobile-offline-forms}
+
+构建您自己的本机应用程序，并通过Headless自适应Forms API获取表单定义。 您可以选择实施离线支持（例如，本地存储和同步）。 请参阅[移动设备表单最佳实践](mobile-forms-best-practices.md)，以了解推荐的方法以及指向API的链接。
+
+## 如何将GraphQL或headless API与AEM Forms结合使用？
+
+AEM Headless自适应Forms使用&#x200B;**HTTP/REST API**，而不是GraphQL。 应用程序调用这些API来列出表单、获取表单定义(JSON)、验证、提交和跟踪提交状态。 使用[Headless自适应表单HTTP API](https://opensource.adobe.com/aem-forms-af-runtime/api/)获取完整引用。 有关如何获取和渲染表单，请参阅[架构](architecture.md)和[了解Headless表单](understanding-headless-forms.md)。
+
+## 如何使用Adobe AEM Forms中的React组件实施和设置Headless表单样式？
+
+您可以使用自己的React组件和CSS（或UI库，如材质UI）来实施和设置Headless表单的样式。 表单逻辑（状态、验证和规则）来自Forms Web SDK和表单JSON；您的应用程序提供用于渲染它的UI。
+
+* 要使用React UI库为Headless表单设置样式，请参阅[使用自定义react库呈现Headless表单](use-google-material-ui-react-components-to-render-a-headless-form.md)。
+* 要生成自定义React组件并将其映射到表单字段，请参阅[使用自定义组件渲染Headless表单](developing-for-headless-forms-using-your-own-components.md)。
+
+有关何时使用Headless表单、状态管理和验证等概念，请参阅[了解Headless表单](understanding-headless-forms.md)。
+
+## 如何使用自定义CSS、主题、规则编辑器和Headless表单实施和自定义AEM Forms？
+
+**Headless表单：**&#x200B;样式和外观完全由您控制。 您使用自己的React（或其他）组件和自己的CSS；没有内置主题。 请参阅[使用自定义react库呈现Headless表单](use-google-material-ui-react-components-to-render-a-headless-form.md)和[使用自定义组件呈现Headless表单](developing-for-headless-forms-using-your-own-components.md)以实施和样式Headless表单。
+
+**经典AEM Forms（主题、规则编辑器、可视编辑器）：**&#x200B;自定义CSS、主题编辑器和规则编辑器适用于经典（非headless）自适应Forms创作体验。 有关这些主题，请参阅Experience League上的[AEM Forms文档](https://experienceleague.adobe.com/docs/experience-manager-forms.html)。
 
 ## Headless自适应表单能否连接到任何CRM以读取或写入数据？
 

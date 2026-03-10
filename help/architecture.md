@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: headless，自适应表单，架构
 hide: false
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ A typical Headless adaptive forms architecture constitutes an Adobe Experience M
 
 **Headless自适应表单**： Headless自适应表单以.json文件表示。 JSON结构定义表单的组件、约束和结构。
 
-**前端应用程序**：前端应用程序，如SPA （单页应用程序）、移动应用程序、JavaScript应用程序，使用Headless自适应表单（JSON表单表示形式）并在客户端上渲染表单。 您可以使用随Headless自适应表单提供的React渲染器组件渲染自适应表单，或构建您自己的自定义组件以本机渲染Headless自适应表单。
+**前端应用程序**：前端应用程序，如SPA （单页应用程序）、移动应用程序、JavaScript应用程序，使用Headless自适应表单（JSON表单表示形式）并在客户端上渲染表单。 您可以使用随Headless自适应表单提供的React渲染器组件来渲染自适应表单，或构建您自己的自定义组件以本机渲染Headless自适应表单。 对于原生移动和离线表单用例，推荐的方法是构建您自己的应用程序并通过API获取表单定义；请参阅[移动表单最佳实践](mobile-forms-best-practices.md)。
 
 <!-- ### Understanding Headless adaptive forms definition -->
 
@@ -76,7 +76,7 @@ A typical Headless adaptive forms architecture constitutes an Adobe Experience M
 
 所有这些组件都包含在AEM原型中。 为Headless自适应表单创建AEM Archetype 37或更高版本项目时，项目中会包含以上列出库的最新版本。
 
-* **代码游乐场**： [代码游乐场](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=zh-Hans)是一个交互式环境，旨在供开发人员试验、了解和测试Headless自适应Forms的功能。
+* **代码游乐场**： [代码游乐场](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)是一个交互式环境，旨在供开发人员试验、了解和测试Headless自适应Forms的功能。
 
 **已启动应用程序**： Adobe还发布了一个已启动应用程序，可帮助您快速启动Headless自适应表单。
 

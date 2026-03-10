@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: Headless CMS，自适应表单， Headless UI， Headful CMS，语音助手， alexa，聊天机器人， WhatsApp架构
 hide: false
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Headless自适应表单可帮助您执行以下操作：
 * 使用您选择的编程语言构建高质量的多渠道表单。
 * 将表单本机集成到桌面和移动设备应用程序、网站和聊天应用程序。
 * 对表单应用程序重用您的专有UI组件。
-* 利用Adobe Experience Manager Forms[的](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)强大功能。
+* 利用Adobe Experience Manager Forms](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)的[强大功能。
+
+对于移动和离线表单用例，建议构建您自己的本机应用程序，并通过Headless自适应Forms API获取表单定义。 有关详细信息，请参阅[移动设备表单最佳实践](mobile-forms-best-practices.md)。
 
 此外，您可以自由开发自己的组件，以使用您选择的任何UI框架和编程语言呈现表单。 您还可以使用现成的React组件渲染Headless自适应表单。
 
