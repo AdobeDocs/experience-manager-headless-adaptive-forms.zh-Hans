@@ -97,7 +97,7 @@ ht-degree: 42%
 
    1. 在第1课中使用的浏览器选项卡中，导航到AEM Forms Web界面，然后导航到&#x200B;**Forms** > **Forms和文档**。
 
-   1. 单击&#x200B;**创建**并选择“自适应表单”。
+   1. 单击&#x200B;**创建**&#x200B;并选择“自适应表单”。
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
    1. 从模板选择屏幕中选择&#x200B;**Blank with Core Components**&#x200B;模板，如下所示，然后单击&#x200B;**下一步**。

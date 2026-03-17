@@ -26,7 +26,7 @@ ht-degree: 4%
 
 * 创建AEM as a Cloud Service程序：按照[创建程序](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program)文章中的步骤1-7为您的组织创建程序。
 
-* 为您的Cloud Service项目](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments)启用[预发行版渠道。
+* 为您的Cloud Service项目[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments)启用预发行版渠道。
 
 ## 设置工作流
 
@@ -61,7 +61,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    3. 对于您的项目，点按……图标，然后选择<b>编辑项目</b>选项。 将显示一个对话框。 
+    &#x200B;3. 对于您的项目，点按……图标，然后选择<b>编辑项目</b>选项。 将显示一个对话框。 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
@@ -72,7 +72,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    4. 在“编辑程序”对话框中，转到<b>解决方案和加载项选项卡</b>，选择<b> Forms — 数字注册</b>选项，然后点按<b>更新</b>。 
+    &#x200B;4. 在“编辑程序”对话框中，转到<b>解决方案和加载项选项卡</b>，选择<b> Forms — 数字注册</b>选项，然后点按<b>更新</b>。 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
@@ -117,7 +117,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    3. 在本地计算机上，打开命令提示符，创建一个文件夹，然后运行以下命令，并提供系统信息库凭据，已询问：
+    &#x200B;3. 在本地计算机上，打开命令提示符，创建一个文件夹，然后运行以下命令，并提供系统信息库凭据，已询问：
     </br>
     <code> git clone [Repository URL] </code> </br></br>
     例如， </br> 
@@ -243,7 +243,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    3. 对于您的管道，点按……图标，然后选择<b>运行</b>选项。 如果提示运行管道，请点按<b>运行</b>并等待管道<b>状态</b>更改为<b>已完成</b>。  
+    &#x200B;3. 对于您的管道，点按……图标，然后选择<b>运行</b>选项。 如果提示运行管道，请点按<b>运行</b>并等待管道<b>状态</b>更改为<b>已完成</b>。  
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
