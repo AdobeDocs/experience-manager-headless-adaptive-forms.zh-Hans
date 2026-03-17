@@ -125,7 +125,7 @@ Adobe Experience Manager Headless自适应表单让此类组织能够自由使�
    解决依赖项和部署项目可能需要很长时间。 如果部署项目时失败，请参阅[疑难解答](troubleshooting.md)文章以了解常见问题及其解决方法。
 
 
-<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article : -->
+<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=zh-Hans#coding-against-the-right-aem-version) article : -->
 
 
 ### &#x200B;3. 创建Headless自适应表单的JSON架构，并将其上传到您的AEM SDK实例 {#create-add-json-representation-of-headless-adaptive-forms}
@@ -181,10 +181,10 @@ You can deploy the project to local development environment. It adds Headless Ad
 
     `mvn -PautoInstallPackage clean install`
 
-If you are on Windows, run the above with Administrative privileges (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/)). For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing).
+If you are on Windows, run the above with Administrative privileges (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/)). For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=zh-Hans#building-and-installing).
 -->
 
-<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article : -->
+<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=zh-Hans#coding-against-the-right-aem-version) article : -->
 
 ### &#x200B;4. 基于带核心组件的空白模板创建自适应表单 {#create-adaptive-form-with-blank-with-core-components-template}
 

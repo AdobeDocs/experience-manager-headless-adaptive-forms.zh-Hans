@@ -38,4 +38,4 @@ ht-degree: 0%
 * [无头自适应表单API](https://opensource.adobe.com/aem-forms-af-runtime/api/) — 以编程方式列出、获取、验证和提交表单。
 * [架构](architecture.md) - Headless自适应表单的工作方式以及前端应用程序如何使用它们。
 
-有关分步集成，请参阅[创建并发布Headless表单](create-and-publish-a-headless-form.md)和[开发人员门户](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en)。
+有关分步集成，请参阅[创建并发布Headless表单](create-and-publish-a-headless-form.md)和[开发人员门户](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=zh-Hans)。

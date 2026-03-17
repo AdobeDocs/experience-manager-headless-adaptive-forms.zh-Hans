@@ -528,12 +528,12 @@ ht-degree: 42%
 
 ## 资源
 
-* [自适应表单核心组件简介](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction)
+* [自适应表单核心组件简介](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [使用核心组件创建自适应表单](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+* [使用核心组件创建自适应表单](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
 * [基于核心组件的AF的更新样式](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
 * [Headless自适应Forms](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [使用Headless React入门工具包](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
+* [使用Headless React入门工具包](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
