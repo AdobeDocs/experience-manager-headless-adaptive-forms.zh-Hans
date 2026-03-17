@@ -10,10 +10,10 @@ keywords: Headless CMS，自适应表单， Headless UI， Headful CMS，语音�
 hide: true
 hidefromtoc: true
 exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 2%
+source-wordcount: '331'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Headless自适应表单可帮助您执行以下操作：
 * 使用您选择的编程语言构建高质量的多渠道表单。
 * 将表单本机集成到桌面和移动设备应用程序、网站和聊天应用程序。
 * 对表单应用程序重用您的专有UI组件。
-* 使用Adobe Experience Manager Forms[的](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)强大功能。
+* 使用Adobe Experience Manager Forms](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)的[强大功能。
 
 此外，您可以自由开发自己的组件，以使用您选择的任何UI框架和编程语言呈现表单。 您还可以使用现成的React组件渲染Headless自适应表单。
 
@@ -154,32 +154,31 @@ Headless自适应表单可帮助您执行以下操作：
         <h2 style="margin-top: 10px;">Heading 3</h2>
         <p>Description 3</p>
     </div>
-    <!-- Add more cards as needed -->
-</div>
+    </div>
 
 
 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 20px;">
     <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
-        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="图像1" style="width: 100%; border-radius: 5px;">
-        <h2 style="margin-top: 10px;">标题 1</h2>
-        <p>说明1</p>
+        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Image 1" style="width: 100%; border-radius: 5px;">
+        <h2 style="margin-top: 10px;">Heading 1</h2>
+        <p>Description 1</p>
     </div>
     <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
-        <img src="/help/assets/02-overview-backend-systems.jpeg" alt="图像2" style="width: 100%; border-radius: 5px;">
-        <h2 style="margin-top: 10px;">标题 2</h2>
-        <p>说明2</p>
+        <img src="/help/assets/02-overview-backend-systems.jpeg" alt="Image 2" style="width: 100%; border-radius: 5px;">
+        <h2 style="margin-top: 10px;">Heading 2</h2>
+        <p>Description 2</p>
     </div>
     <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
-        <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="图像3" style="width: 100%; border-radius: 5px;">
-        <h2 style="margin-top: 10px;">标题 3</h2>
-        <p>说明3</p>
+        <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="Image 3" style="width: 100%; border-radius: 5px;">
+        <h2 style="margin-top: 10px;">Heading 3</h2>
+        <p>Description 3</p>
     </div>
-    <!-- Add more cards as needed -->
 </div>
 
-—>
+-->
+<!-- Add more cards as needed -->
 
 ## 谁可以使用Headless自适应表单？ {#who-can-use-headless-adaptive-forms}
 

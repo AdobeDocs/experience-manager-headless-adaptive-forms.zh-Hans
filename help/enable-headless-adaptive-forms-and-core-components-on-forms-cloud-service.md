@@ -11,10 +11,10 @@ docset: CloudService
 hide: true
 hidefromtoc: true
 exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 52%
+source-wordcount: '943'
+ht-degree: 51%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 52%
 >[!NOTE]
 >
 >
-> Adobe提供了一个自适应Forms [简易工具包（React应用程序）](create-and-publish-a-headless-form.md)，以帮助开发人员快速开始进行Headless自适应Forms开发，而无需在AEM Forms as a Cloud Service环境中启用Headless自适应Forms。 在快速动手开发Headless表单之后，您可以稍后在Forms as a Cloud Service环境中启用Headless自适应Forms[。](create-and-publish-a-headless-form.md)
+> Adobe提供了一个自适应Forms [简易工具包（React应用程序）](create-and-publish-a-headless-form.md)，以帮助开发人员快速开始进行Headless自适应Forms开发，而无需在AEM Forms as a Cloud Service环境中启用Headless自适应Forms。 在快速动手开发Headless表单之后，您可以稍后在Forms as a Cloud Service环境中启用Headless自适应Forms](create-and-publish-a-headless-form.md)。[
 
 ## 为AEM Forms as a Cloud Service环境启用Headless自适应Forms
 
@@ -43,7 +43,7 @@ ht-degree: 52%
 ![](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service.png)
 
 
-## &#x200B;1. 克隆您的 AEM Forms as a Cloud Service Git 存储库 {#clone-git-repository}
+## &#x200B;1. 克隆AEM Forms as a Cloud Service Git存储库 {#clone-git-repository}
 
 1. 登录到 [Cloud Manager](https://my.cloudmanager.adobe.com/) 并选择您的组织和计划。
 
@@ -62,14 +62,14 @@ ht-degree: 52%
    git clone [Git Repository URL]
    ```
 
-   出现提示时，提供凭据。随后将该存储库克隆到您的本地计算机。
+   出现提示时，提供凭据。 随后将该存储库克隆到您的本地计算机。
 
 
-## &#x200B;2. 将自适应表单核心组件依赖项添加到您的 Git 存储库 {#add-adaptive-forms-core-components-dependencies}
+## &#x200B;2. 将自适应Forms核心组件依赖项添加到您的Git存储库 {#add-adaptive-forms-core-components-dependencies}
 
-1. 在纯文本代码编辑器中打开您的 Git 存储库文件夹。例如 VS Code。
+1. 在纯文本代码编辑器中打开您的 Git 存储库文件夹。 例如 VS Code。
 1. 打开 `[AEM Repository Folder]\pom.xml` 文件以供编辑。
-1. 将 `core.forms.components.version`、`core.forms.components.af.version` 和 `core.wcm.components.version` 组件的版本替换为[核心组件文档](https://github.com/adobe/aem-core-forms-components)中指定的版本。如果不存在，请添加这些组件。
+1. 将 `core.forms.components.version`、`core.forms.components.af.version` 和 `core.wcm.components.version` 组件的版本替换为[核心组件文档](https://github.com/adobe/aem-core-forms-components)中指定的版本。 如果不存在，请添加这些组件。
 
    ```XML
    <!-- Replace the version with the latest released version at https://github.com/adobe/aem-core-forms-components/tags -->
@@ -144,7 +144,7 @@ ht-degree: 52%
    <!-- End of AEM Forms Core Component Dependencies -->
    ```
 
-1. 打开 `[AEM Repository Folder]/all/pom.xml` 文件以供编辑。在 `<embeddeds>` 部分中添加以下依赖项，然后保存该文件。
+1. 打开 `[AEM Repository Folder]/all/pom.xml` 文件以供编辑。 在 `<embeddeds>` 部分中添加以下依赖项，然后保存该文件。
 
    ```XML
    <!-- WCM Core Component Examples Dependencies -->
@@ -201,7 +201,7 @@ ht-degree: 52%
    >
    >  将 `${appId}` 替换为您的 appId。
    >
-   >  要查找您的 `${appId}`，请在 `[AEM Repository Folder]/all/pom.xml` 文件中搜索 `-packages/application/install` 一词。在 `-packages/application/install` 一词之前的文本就是您的 `${appId}`。例如，下列代码 `myheadlessform` 是 `${appId}`。
+   >  要查找您的 `${appId}`，请在 `[AEM Repository Folder]/all/pom.xml` 文件中搜索 `-packages/application/install` 一词。 在 `-packages/application/install` 一词之前的文本就是您的 `${appId}`。 例如，下列代码 `myheadlessform` 是 `${appId}`。
    >
    >   ```
    >             <embedded>
@@ -250,7 +250,7 @@ ht-degree: 52%
            </dependency>
    ```
 
-1. 打开 `[AEM Repository Folder]/ui.apps/pom.xml` 以供编辑。添加 `af-core bundle` 依赖项，然后保存该文件。
+1. 打开 `[AEM Repository Folder]/ui.apps/pom.xml` 以供编辑。 添加 `af-core bundle` 依赖项，然后保存该文件。
 
    ```XML
        <dependency>
@@ -282,14 +282,14 @@ ht-degree: 52%
 
 1. 保存并关闭该文件。
 
-## 3.更新项目以包含最新版本的Forms核心组件：
+## &#x200B;3.  更新项目以包含最新版本的Forms核心组件：
 
 1. 打开[AEM原型项目文件夹]/pom.xml进行编辑。
 
 
 1. 保存并关闭该文件。
 
-## 4.将更新提交到Git存储库并运行管道以部署存储库 {#Commit-the-updates-to-your-git-repository}
+## &#x200B;4. 将更新提交到Git存储库并运行管道以部署存储库 {#Commit-the-updates-to-your-git-repository}
 
 1. 将代码提交到Git存储库：
    1. 打开终端或命令提示符。
@@ -303,7 +303,7 @@ ht-degree: 52%
       git push origin
       ```
 
-1. 将文件提交到 Git 存储库后，[运行管道](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-manager/content/using/code-deployment)。
+1. 将文件提交到 Git 存储库后，[运行管道](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/using/code-deployment)。
 
    管道运行成功后，将为相应的环境启用自适应Forms核心组件。 此外，还将自适应表单（核心组件）模板和 Canvas 3.0 主题添加到您的 Forms as a Cloud Service 环境，并为您提供自定义和创建基于核心组件的自适应表单的选项。
 
@@ -316,7 +316,7 @@ ht-degree: 52%
 
 ### 启用核心组件时将添加哪些功能？ {#core-components-capabilities}
 
-为您的环境启用自适应表单核心组件时，将有一个空白的基于核心组件的自适应表单模板和 Canvas 3.0 主题添加到您的环境。为您的环境启用自适应表单核心组件后，您可以：
+为您的环境启用自适应表单核心组件时，将有一个空白的基于核心组件的自适应表单模板和 Canvas 3.0 主题添加到您的环境。 为您的环境启用自适应表单核心组件后，您可以：
 
 * 创建基于核心组件的自适应Forms。
 * 创建基于核心组件的自适应表单模板。

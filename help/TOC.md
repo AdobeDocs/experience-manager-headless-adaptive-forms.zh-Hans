@@ -4,8 +4,8 @@ breadcrumb-title: AEM Headless自适应表单
 user-guide-description: Adobe Experience Manager Headless自适应表单文档
 feature: Adaptive Forms
 role: Developer
-hide: false
-source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
+index: true
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 4%
@@ -34,8 +34,8 @@ ht-degree: 4%
 + 创建Headless自适应表单 {#authoring-headless-adaptive-forms}
    + [使用自适应Forms编辑器创建Headless自适应表单](create-a-headless-adaptive-form.md)
 + 开发人员参考 {#developer-reference}
-   + [开发人员门户](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=zh-Hans)
-   + [代码游乐场](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=zh-Hans)
+   + [开发人员门户](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en)
+   + [代码游乐场](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
    + [Headless自适应表单API](https://opensource.adobe.com/aem-forms-af-runtime/api/)
 + [常见问题解答](faq.md)
 + [疑难解答](troubleshooting.md)

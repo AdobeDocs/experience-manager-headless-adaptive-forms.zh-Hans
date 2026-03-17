@@ -7,15 +7,14 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: headless forms， headless form library，无头表单库， adaptive forms，自适应表单，状态管理，验证，设计系统， SSR， CMS
-hide: false
-exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
+index: true
+exl-id: 539da3e9-25c5-4e26-ba4e-f68cf849bca4
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
 source-wordcount: '2605'
 ht-degree: 0%
 
 ---
-
 
 # 了解Headless表单 — 概念和常见问题解答 {#understanding-headless-forms}
 
@@ -39,11 +38,11 @@ ht-degree: 0%
 |--------|---------------------------|------------------------|
 | **UI** | 随附内置组件和样式 | 没有规定的UI；您自带组件 |
 | **样式** | 库组件上的主题化或覆盖 | 完全控制；按原样使用设计系统 |
-| **表单定义** | 通常为仅代码(JSX/HTML中的组件) | 通常数据驱动(来自CMS或API的JSON/架构) |
+| **表单定义** | 通常为仅代码（JSX/HTML中的组件） | 通常数据驱动（来自CMS或API的JSON/架构） |
 | **状态和验证** | 已绑定到库组件 | 通过API/挂接公开；任何UI都可以绑定到它们 |
 | **渠道** | 通常为Web（有时为一个框架） | 相同的表单定义可以驱动Web、移动设备、聊天等。 |
 
-使用AEM Headless自适应Forms，您可以在AEM中[创建并发布表单](create-and-publish-a-headless-form.md)一次；任何客户端(React、Angular、本机移动设备、聊天机器人)都可以[获取表单JSON](architecture.md)，并使用适用于该渠道的适当UI进行渲染。
+使用AEM Headless自适应Forms，您可以在AEM中[创建并发布表单](create-and-publish-a-headless-form.md)一次；任何客户端（React、Angular、本机移动设备、聊天机器人）都可以[获取表单JSON](architecture.md)，并使用适用于该渠道的适当UI进行渲染。
 
 ### 为什么我应该使用Headless表单而不是基于UI的表单解决方案？
 
@@ -60,7 +59,7 @@ Headless表单非常适合于您需要：
 在以下情况下使用Headless表单：
 
 * 您拥有或需要强大的设计系统或组件库。
-* Forms由非开发人员创作(例如，在CMS中)，并且必须在多个应用程序或渠道中使用。
+* Forms由非开发人员创作（例如，在CMS中），并且必须在多个应用程序或渠道中使用。
 * 您需要跨Web、移动或其他客户端使用相同的表单逻辑（验证、规则）。
 * 您希望最大限度地减少重新渲染并保持表单逻辑可独立于UI测试。
 
@@ -74,7 +73,7 @@ Headless表单非常适合于您需要：
 它解决了真正的体系结构问题：
 
 * **关注点分离** — 表单结构、规则和验证在数据和逻辑层上实时；UI层仅呈现和调度用户操作。 这提高了可测试性和可重用性。
-* **渠道独立性** — 一个表单定义可以驱动不同的UI(例如，React Web、React Native、Angular或语音)。 AEM Headless自适应Forms专为此而构建：[构建一次，跨React、SPA、Web、移动等交付](overview.md)。
+* **渠道独立性** — 一个表单定义可以驱动不同的UI（例如，React Web、React Native、Angular或语音）。 AEM Headless自适应Forms专为此而构建：[构建一次，跨React、SPA、Web、移动等交付](overview.md)。
 * **不使用代码进行创作** — 业务用户可以在[自适应表单编辑器](create-a-headless-adaptive-form.md)中更改字段和规则；开发人员不需要重新部署内容更改。
 * **与现有栈栈集成** — 您保留设计系统、状态管理和路由；Headless层仅处理表单状态、验证和提交。
 
@@ -123,7 +122,7 @@ Headless表单非常适合于您需要：
 
 提交与UI脱钩：
 
-* **AEM提交操作** — 您在AEM中将表单配置为提交到REST端点、电子邮件或集成(例如Microsoft Dynamics、Salesforce)。 表单通过AEM提交，后者处理实际的HTTP/后端调用。 请参阅[使用事件处理和提交表单数据](use-events-to-handle-and-submit-form-data.md)。
+* **AEM提交操作** — 您在AEM中将表单配置为提交到REST端点、电子邮件或集成（例如Microsoft Dynamics、Salesforce）。 表单通过AEM提交，后者处理实际的HTTP/后端调用。 请参阅[使用事件处理和提交表单数据](use-events-to-handle-and-submit-form-data.md)。
 * **客户端提交** — 您的应用程序可以从运行时状态侦听提交或收集表单数据，并将其发送到您自己的API。 [HTTP API](https://opensource.adobe.com/aem-forms-af-runtime/api/)文档列表，提取、验证、提交和跟踪提交状态。
 * **预填充** — 可以通过REST端点或服务器端预填充数据，以便在加载表单时填充状态。 请参阅[Storybook — 预填充示例](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data)。
 
@@ -222,5 +221,5 @@ Headless表单非常适合于您需要：
 * [常见问题解答](faq.md)
 * [创建和发布Headless表单](create-and-publish-a-headless-form.md)
 * [Headless自适应表单API](https://opensource.adobe.com/aem-forms-af-runtime/api/)
-* [代码游乐场](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=zh-Hans)
+* [代码游乐场](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
 * [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/)

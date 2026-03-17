@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 topic-tags: develop
 hide: true
 exl-id: 07a71aac-de38-4839-b8d6-b47c3f575eb3
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '2134'
-ht-degree: 40%
+source-wordcount: '2311'
+ht-degree: 42%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 40%
 
 ## 实验室概述 {#lab-overview}
 
-通过本动手实验，您将了解如何将AEM Forms与最新的核心组件结合使用(与AEM Sites保持一致)来快速创建自适应表单。 将这些表单作为Headless体验交付给Web、移动和聊天渠道，以实现无缝的全渠道数据捕获。 您还将了解有关样式化、自定义项和前端开发的最佳实践。
+通过本动手实验，您将了解如何将AEM Forms与最新的核心组件结合使用（与AEM Sites保持一致）来快速创建自适应表单。 将这些表单作为Headless体验交付给Web、移动和聊天渠道，以实现无缝的全渠道数据捕获。 您还将了解有关样式化、自定义项和前端开发的最佳实践。
 
 ## 要点 {#key-takeaways}
 
@@ -59,11 +59,11 @@ ht-degree: 40%
 1. 打开浏览器，输入创作环境的URL。 例如：
    [https://localhost:4502](https://localhost:4502)。
 
-1. 登录后，导航至 AEM Forms UI。单击&#x200B;**表单**。
+1. 登录后，导航至 AEM Forms UI。 单击&#x200B;**表单**。
 
    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
-1. 单击&#x200B;**表单和文档**。关闭任何与偏好设置或信息相关的弹出窗口。
+1. 单击&#x200B;**表单和文档**。 关闭任何与偏好设置或信息相关的弹出窗口。
 
    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
@@ -86,11 +86,9 @@ ht-degree: 40%
 1. 为表单创建提交端点：
 
    1. 在新的浏览器标签页中打开 <https://pipedream.com/requestbin>。
-
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
    1. 单击&#x200B;**创建公共 bin** 并复制端点 URL。
-
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
    此特定端点用作提交和查看数据的示例。 在实际生产中，您使用自己的端点或数据源来存储捕获的数据。
@@ -99,21 +97,18 @@ ht-degree: 40%
 
    1. 在第1课中使用的浏览器选项卡中，导航到AEM Forms Web界面，然后导航到&#x200B;**Forms** > **Forms和文档**。
 
-   1. 单击&#x200B;**创建**&#x200B;并选择“自适应表单”。
-
+   1. 单击&#x200B;**创建**并选择“自适应表单”。
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
    1. 从模板选择屏幕中选择&#x200B;**Blank with Core Components**&#x200B;模板，如下所示，然后单击&#x200B;**下一步**。
-
       ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
    1. 将`Contact us`指定为表单的&#x200B;**标题**。 确保表单的&#x200B;**Name**&#x200B;为`contact-us`。
-
       ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
 
-   1. 单击&#x200B;**创建**。此时将显示一个对话框。
+   1. 单击&#x200B;**创建**。 此时将显示一个对话框。
 
-   1. 在该对话框中，单击&#x200B;**编辑**。 该表单将在自适应表单编辑器中打开。 关闭任何弹出窗口或对话框以获取首选项或信息。
+   1. 在该对话框中，单击&#x200B;**编辑**。 该表单将在自适应表单编辑器中打开。 关闭偏好设置或信息的任何弹出窗口或对话框。
 
    1. 打开组件浏览器，并将面板组件拖放到屏幕中间。
 
@@ -212,7 +207,7 @@ ht-degree: 40%
 
    >[!NOTE]
    >
-   > * 如果收到要求通过`npm`命令更新`npm notice Run npm nstall -g npm@9.6.0`的消息，请忽略该消息。
+   > * 如果收到要求通过`npm notice Run npm nstall -g npm@9.6.0`命令更新`npm`的消息，请忽略该消息。
    > * 除非在工作簿中向您发出指示，否则不要运行其他`npm`命令。
 
 1. 现在，运行以下命令预览表单。
@@ -223,7 +218,7 @@ ht-degree: 40%
 
    ![](/help/assets/screenshot2028117229.png)
 
-   执行上述命令后，等待 `webpack compiled` 消息。表单将显示在浏览器标签页中。
+   执行上述命令后，等待 `webpack compiled` 消息。 表单将显示在浏览器标签页中。
 
    >[!NOTE]
    >
@@ -233,7 +228,7 @@ ht-degree: 40%
    ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png){width="50%" align="left"}
 
 
-1. 在 Visual Studio Code 中，打开 `PROJECT\src\site\_variables.scss` 文件。请注意，`$error` 颜色是红色阴影。
+1. 在 Visual Studio Code 中，打开 `PROJECT\src\site\_variables.scss` 文件。 请注意，`$error` 颜色是红色阴影。
 
    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
 
@@ -243,7 +238,7 @@ ht-degree: 40%
 
 1. 将 **$error** 颜色设置为 **#5736eb** 并保存文件。
 
-1. 刷新浏览器并提交表单。请注意，名字字段上的错误颜色已相应更改。
+1. 刷新浏览器并提交表单。 请注意，名字字段上的错误颜色已相应更改。
 
    ![](/help/assets/error-color-after.png)
 
@@ -305,7 +300,7 @@ ht-degree: 40%
 
    ![](/help/assets/screenshot2028117729.png)
 
-1. 为 .env 文件中的变量设置以下值。更新变量后，保存文件。
+1. 为 .env 文件中的变量设置以下值。 更新变量后，保存文件。
 
    * **AEM_URL**：指定发布环境的URL。 例如，`https://localhost:4503/`
 
@@ -343,9 +338,9 @@ ht-degree: 40%
 
 让我们以商业用户的身份对服务器上的表单进行更改，并自动查看 Headless 表单中反映的更改。
 
-1. 在浏览器中打开 AEM Forms 管理界面。例如，[http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)。
+1. 在浏览器中打开 AEM Forms 管理界面。 例如，[http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)。
 
-1. 选择&#x200B;**联系我们**&#x200B;表单，然后单击&#x200B;**编辑。**&#x200B;它会在自适应Forms编辑器中打开表单。
+1. 选择&#x200B;**联系我们**&#x200B;表单，然后单击&#x200B;**编辑**。 该操作将在自适应Forms编辑器中打开表单。
 
 
 1. 选择&#x200B;**联系电话**&#x200B;字段并单击工具栏中的&#x200B;**编辑图标（铅笔图标）**。 如果看不到弹出式工具栏，请切换到编辑模式。 单击&#x200B;**预览**&#x200B;按钮右上角的&#x200B;**编辑**&#x200B;按钮。
@@ -359,18 +354,18 @@ ht-degree: 40%
 1. 在AEM Forms管理界面选项卡中，选择与我们联系表单，然后单击&#x200B;**取消发布**。 如果您没有看到&#x200B;**取消发布**&#x200B;按钮，请跳至步骤 3 以直接发布更改。
 
 
-1. 单击&#x200B;**取消发布**。在相应的对话框中，单击&#x200B;**关闭**。
+1. 单击&#x200B;**取消发布**。 在相应的对话框中，单击&#x200B;**关闭**。
 
 1. 浏览器刷新后，选择与我们联系表单，然后单击&#x200B;**发布**。
 
 
-1. 单击&#x200B;**发布**。在相应的对话框中，单击&#x200B;**关闭**。
+1. 单击&#x200B;**发布**。 在相应的对话框中，单击&#x200B;**关闭**。
 
-1. 刷新显示了 Headless 表单的浏览器标签页。请注意，“联系电话”标签已更改为“手机号码”。
+1. 刷新显示了 Headless 表单的浏览器标签页。 请注意，“联系电话”标签已更改为“手机号码”。
 
    ![](/help/assets/headless-adaptive-form.png)
 
-1. 打开用于启动 **react-starter-kit-aem-headless-forms** 项目的命令提示符窗口，按 **Ctrl+C**，然后输入 **Y** 并按 Enter 键以终止 npm 进程。请务必停止 npm 服务器，以避免与下一组练习发生冲突。
+1. 打开用于启动 **react-starter-kit-aem-headless-forms** 项目的命令提示符窗口，按 **Ctrl+C**，然后输入 **Y** 并按 Enter 键以终止 npm 进程。 请务必停止 npm 服务器，以避免与下一组练习发生冲突。
 
 1. 关闭 Visual Studio Code 和命令提示符窗口。
 
@@ -431,7 +426,7 @@ ht-degree: 40%
 
    ![](/help/assets/screenshot2028126629.png){width="30%" align="left"}
 
-1. 为 .env 文件中的变量设置以下值。更新变量后，保存文件。 使用 **Ctrl + S** 开关组合来保存文件。
+1. 为 .env 文件中的变量设置以下值。 更新变量后，保存文件。 使用 **Ctrl + S** 开关组合来保存文件。
 
    * **AEM_URL**：指定发布环境的URL。 例如，[https://localhost:4503](https://localhost:4503)
 
@@ -454,7 +449,7 @@ ht-degree: 40%
 
    ![](/help/assets/lab65-mui-starter-kit-start.png)
 
-   该命令将启动本地开发服务器，并使用AEM材料UI前端库以Headless方式呈现从Google中获取的表单定义。
+   该命令将启动一个本地开发服务器，并使用 Google Material UI 前端库以 Headless 方式呈现从 AEM 获取的表单定义。
 
    >[!NOTE]
    >
@@ -474,11 +469,11 @@ ht-degree: 40%
 
 ### 练习
 
-更新 Headless 项目中的组件变体。要将 Material UI 文本输入组件的变体更改为 `OutlinedInput`，请执行以下操作：
+更新 Headless 项目中的组件变体。 要将 Material UI 文本输入组件的变体更改为 `OutlinedInput`，请执行以下操作：
 
 1. 在 Visual Code 中，通过打开位于 `src/components/textinput/index.tsx` 的 `index.tsx` 文件来导航到文本输入组件。
 
-1. 在代码行 104 的开头添加 `//`。它将行转换为注释。
+1. 在代码行 104 的开头添加 `//`。 它将行转换为注释。
 
    ```Shell
    //const Cmp = \'outlined\' === appliedCssClassNames ? OutlinedInput: Input;
@@ -492,7 +487,7 @@ ht-degree: 40%
 
    ![](/help/assets/aem65-lab-code-update.png)
 
-   必须对“OverridedInput”变量使用正确的大小写，否则编译将失败。 本地开发环境编译自动在命令提示符处开始。等待，直到您看到以下消息
+   必须对“OverridedInput”变量使用正确的大小写，否则编译将失败。 本地开发环境编译自动在命令提示符处开始。 等待，直到您看到以下消息
 
    `webpack 5.75.0 compiled with 3 warnings in 6659 ms`
    `inside proxy req`
@@ -503,7 +498,7 @@ ht-degree: 40%
    ![](/help/assets/screenshot2028127729.png){width="50%" align="left"}
 
 
-   对于最终用户来说，无需对 AEM Forms Server 中的表单定义进行任何更改即可进行此更改，并且它特定于正在考虑的 Headless 渠道。例如，本实验中的Web渠道。
+   对于最终用户来说，无需对 AEM Forms Server 中的表单定义进行任何更改即可进行此更改，并且它特定于正在考虑的 Headless 渠道。 例如，本实验中的Web渠道。
 
    ![](/help/assets/aem65-lab-mui-style-update.png)
 
@@ -512,13 +507,13 @@ ht-degree: 40%
 
 ## 常见问题解答 (FAQ)
 
-+++ 核心组件是否可公开发布？
++++ 核心组件是否可公开发布？  
 
 是，自适应Forms核心组件随AEM 6.5 Forms和Forms as Cloud Service提供。 您需要AEM Forms 6.5 Service Pack 16或更高版本才能使用自适应Forms核心组件。
 
 +++
 
-+++ Headless 表单是否需要单独的许可证？
++++ Headless 表单是否需要单独的许可证？  
 
 否，Headless 表单使用相同的许可价值指标，即表单提交次数。
 
@@ -533,12 +528,12 @@ ht-degree: 40%
 
 ## 资源
 
-* [自适应表单核心组件简介](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/adaptive-forms/introduction)
+* [自适应表单核心组件简介](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [使用核心组件创建自适应表单](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+* [使用核心组件创建自适应表单](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
-* [更新基于核心组件的 AF 的样式](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
+* [基于核心组件的AF的更新样式](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
 * [Headless自适应Forms](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [使用Headless React入门工具包](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
+* [使用Headless React入门工具包](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)

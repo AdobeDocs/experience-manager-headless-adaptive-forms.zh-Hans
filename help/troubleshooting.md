@@ -7,12 +7,12 @@ feature: Adaptive Forms
 topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
-hide: false
+index: true
 exl-id: bfb7e688-d2be-4aaa-ac9b-147cbd74b516
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 6%
+source-wordcount: '152'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 6%
 
 由于`node.js`或`NPM`的版本不受支持或安装损坏，可能发生这种情况。
 
-### 解决方案
+### 解决办法
 
 1. 从您的环境中完全[删除当前安装的Node.JS](https://khushwantsehgal.wordpress.com/2022/06/28/how-to-remove-node-js-completely-from-windows-10/)。
 
@@ -47,6 +47,6 @@ ht-degree: 6%
 
 如果未安装Git，则可能会发生这种情况。
 
-### 解决方案
+### 解决办法
 
 下载并安装[最新版本的Git](https://git-scm.com/downloads)。 如果您是初次使用Git，请参阅[安装Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)。

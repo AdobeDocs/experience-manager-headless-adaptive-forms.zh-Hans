@@ -7,18 +7,18 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: headless，自适应表单，Visual Studio代码扩展
-hide: false
+index: true
 exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 # 适用于Headless自适应表单的Microsoft Visual Studio代码扩展
 
-如果您使用Microsoft® Visual Studio Code作为IDE（集成开发环境），则可以使用适用于Microsoft Visual Studio Code的Adaptive Forms扩展。 扩展：
+如果您使用® Visual Studio Code作为IDE（集成开发环境），则可以使用适用于Microsoft Visual Studio Code的Adaptive Forms扩展。 扩展：
 
 * 在Visual Studio代码中添加了用于自适应Forms的IntelliSense功能。
 * 帮助验证和自动完成Headless自适应表单组件的JSON语法。

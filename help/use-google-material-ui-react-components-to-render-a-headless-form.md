@@ -6,11 +6,11 @@ feature: Adaptive Forms
 topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
-hide: false
+index: true
 exl-id: 476509d5-f4c1-4d1c-b124-4c278f67b1ef
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 本教程中使用Google材料UI组件来演示如何使用自定义React组件渲染Headless自适应表单。 但是，您不仅可以使用这个库，还可以自由使用任何React组件库或开发您自己的自定义组件。
 
-根据本文的结论，在&#x200B;_使用入门工具包_&#x200B;创建并发布Headless表单中创建的[联系我们](create-and-publish-a-headless-form.md)表单将转换为以下内容：
+根据本文的结论，在[使用入门工具包](create-and-publish-a-headless-form.md)创建并发布Headless表单中创建的&#x200B;_联系我们_&#x200B;表单将转换为以下内容：
 
 ![](assets/headless-adaptive-form-with-google-material-ui-components.png)
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 ![](assets/headless-forms-graphics-source-main.svg)
 
-## 1.安装Google材料UI
+## &#x200B;1. 安装Google Material UI
 
 默认情况下，入门套件使用[Adobe的Spectrum](https://spectrum.adobe.com/)组件。 让我们将其设置为使用[Google的材料UI](https://mui.com/)：
 
-1. 确保入门套件未运行。 要停止入门工具包，请打开您的终端，导航到&#x200B;**react-starter-kit-aem-headless-forms**，然后按Ctrl-C(在Windows、Mac和Linux®上相同)。
+1. 确保入门套件未运行。 要停止入门工具包，请打开您的终端，导航到&#x200B;**react-starter-kit-aem-headless-forms**，然后按Ctrl-C（在Windows、Mac和Linux®上相同）。
 
    请勿尝试关闭终端。 关闭终端不会停止入门套件。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 它会安装Google材料UI npm库，并将库添加到入门套件依赖项。 您现在可以使用材质UI组件来呈现表单组件。
 
 
-## 2.创建自定义React组件
+## &#x200B;2. 创建自定义React组件
 
 让我们创建一个自定义组件，该组件会将默认的[文本输入](https://spectrum.adobe.com/page/text-field/)组件替换为[Google素材UI文本字段](https://mui.com/material-ui/react-text-field/)组件。
 
@@ -111,11 +111,11 @@ ht-degree: 0%
 
 您的自定义组件`materialtextfield`已就绪。 让我们将此自定义组件设置为使用Google材料UI文本字段替换[fieldType： &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)的所有实例。
 
-## 3.映射具有Headless表单字段的自定义组件
+## &#x200B;3. 将自定义组件映射到Headless表单字段
 
 使用第三方库组件呈现表单字段的过程称为映射。 将每个([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input))映射到第三方库的相应组件。
 
-所有与映射相关的信息都已添加到`mappings.ts`文件中。 `...mappings`文件中的`mappings.ts`语句引用默认映射，这些映射使用[Adobe Spectrum](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input)组件覆盖（`:type`fieldType[或](https://spectrum.adobe.com/page/text-field/)）。
+所有与映射相关的信息都已添加到`mappings.ts`文件中。 `mappings.ts`文件中的`...mappings`语句引用默认映射，这些映射使用[Adobe Spectrum](https://spectrum.adobe.com/page/text-field/)组件覆盖（[fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input)或`:type`）。
 
 要为`materialtextfield`组件添加在上一步中创建的映射，请执行以下操作：
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 ## 下一步
 
-您已成功使用使用Google材料UI的自定义组件呈现表单。 是否尝试通过单击提交按钮(映射到相应的Google材料UI组件)来提交表单？ 如果没有，请试一试。
+您已成功使用使用Google材料UI的自定义组件呈现表单。 是否尝试通过单击提交按钮（映射到相应的Google材料UI组件）来提交表单？ 如果没有，请试一试。
 
 表单是否将数据提交到任何数据源？ 不行吗？ 别担心。 原因是您的表单未配置为与运行时库通信。
 
