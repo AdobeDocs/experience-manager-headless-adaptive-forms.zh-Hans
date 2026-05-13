@@ -10,9 +10,13 @@ contentOwner: Khushwant Singh
 docset: CloudService
 hide: true
 exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
-source-git-commit: 3af67fd41cdd1e63a460e56ef1d273c90b3954d7
+TQID: https://experienceleague.adobe.com/T5J7Am-NsZ-hzZkRRg3LEk0anMjhXaEznf1bijy2H-Q
+product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: cc2553bb4b16ea8c31664c227921c4e91d1c7a62
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: 943
 ht-degree: 51%
 
 ---
@@ -32,7 +36,7 @@ ht-degree: 51%
 >[!NOTE]
 >
 >
-> Adobe提供了一个自适应Forms [简易工具包（React应用程序）](create-and-publish-a-headless-form.md)，以帮助开发人员快速开始进行Headless自适应Forms开发，而无需在AEM Forms as a Cloud Service环境中启用Headless自适应Forms。 在快速动手开发Headless表单之后，您可以稍后在Forms as a Cloud Service环境中启用Headless自适应Forms[&#128279;](create-and-publish-a-headless-form.md)。
+> Adobe提供了一个自适应Forms [简易工具包（React应用程序）](create-and-publish-a-headless-form.md)，以帮助开发人员快速开始进行Headless自适应Forms开发，而无需在AEM Forms as a Cloud Service环境中启用Headless自适应Forms。 在快速动手开发Headless表单之后，您可以稍后在Forms as a Cloud Service环境中启用Headless自适应Forms](create-and-publish-a-headless-form.md)。[
 
 ## 为AEM Forms as a Cloud Service环境启用Headless自适应Forms
 
@@ -302,7 +306,7 @@ ht-degree: 51%
       git push origin
       ```
 
-1. 将文件提交到 Git 存储库后，[运行管道](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-manager/content/using/code-deployment)。
+1. 将文件提交到 Git 存储库后，[运行管道](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/using/code-deployment)。
 
    管道运行成功后，将为相应的环境启用自适应Forms核心组件。 此外，还将自适应表单（核心组件）模板和 Canvas 3.0 主题添加到您的 Forms as a Cloud Service 环境，并为您提供自定义和创建基于核心组件的自适应表单的选项。
 

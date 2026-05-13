@@ -5,10 +5,14 @@ description: 使用核心组件和 Headless 构建具有吸引力的表单
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+TQID: https://experienceleague.adobe.com/vxO7ZkfNQ001uvMujjDotL5le6Q0gYN-YGoYMThWbAs
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
 workflow-type: tm+mt
-source-wordcount: '2629'
-ht-degree: 56%
+source-wordcount: 2629
+ht-degree: 52%
 
 ---
 
@@ -98,18 +102,18 @@ ht-degree: 56%
    1. 单击&#x200B;**创建** > **自适应表单**。
       ![](/help/assets/screenshot2028114629.png)
 
-   1. 从模板选择屏幕中选择&#x200B;**空白（核心组件）**&#x200B;模板，如下所示：
+   1. 从模板选择屏幕中选择&#x200B;**空白（核心组件）**模板，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.1520pm.png)
 
    1. 单击&#x200B;**样式**&#x200B;选项卡，选择 **wknd-theme** 主题，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. 单击&#x200B;**提交**&#x200B;选项卡，选择&#x200B;**提交到REST端点**&#x200B;卡并在&#x200B;**URL中指定POST请求**&#x200B;字段的公共bin，如下所示：
+   1. 单击&#x200B;**提交**&#x200B;选项卡，选择&#x200B;**提交到REST端点**&#x200B;卡并在&#x200B;**URL中指定POST请求**字段的公共bin，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. 单击&#x200B;**创建**。 在表单上指定名称和标题。 例如，**注册**。 单击&#x200B;**创建**。
 
-   1. 这将打开自适应表单编辑器。 关闭偏好设置或信息的任何弹出窗口或对话框。 单击左边栏上的组件浏览器，并将&#x200B;**页眉**&#x200B;和&#x200B;**页脚**&#x200B;组件分别添加到空白表单的顶部和底部。
+   1. 这将打开自适应表单编辑器。 关闭偏好设置或信息的任何弹出窗口或对话框。 单击左边栏上的组件浏览器，并将&#x200B;**页眉**&#x200B;和&#x200B;**页脚**组件分别添加到空白表单的顶部和底部。
       ![](/help/assets/screenshot2028121929.png)
 
    1. 从组件浏览器中拖放组件以创建表单，如下所示：
@@ -407,7 +411,8 @@ ht-degree: 56%
 
    ![](/help/assets/screenshot2028120529.png)
 
-1. 打开用于启动 **react-starter-kit-aem-headless-forms** 项目的命令提示符窗口，按 **Ctrl+C**，然后输入 **Y** 并按 Enter 键以终止 npm 进程。 请务必停止 npm 服务器，以避免与下一组练习发生冲突。
+1. 打开用于启动&#x200B;**react-starter-kit-aem-headless-forms**&#x200B;项目的命令提示符窗口，按&#x200B;**CTRL+C**，然后
+输入**Y**&#x200B;并按Enter键终止npm进程。 请务必停止 npm 服务器，以避免与下一组练习发生冲突。
 
 1. 关闭 Visual Studio Code 和命令提示符窗口。
 
@@ -493,7 +498,8 @@ ht-degree: 56%
 
    ![](/help/assets/screenshot2028127129.png)
 
-   该命令将启动一个本地开发服务器，并使用 Google Material UI 前端库以 Headless 方式呈现从 AEM 获取的表单定义。
+   该命令将启动本地开发服务器，并使用Google以Headless方式呈现从AEM中获取的表单定义
+材料UI前端库。
 
    >[!NOTE]
    >
@@ -548,7 +554,8 @@ ht-degree: 56%
    ![](/help/assets/screenshot2028127729.png)
 
 
-   对于最终用户来说，无需对 AEM Forms Server 中的表单定义进行任何更改即可进行此更改，并且它特定于正在考虑的 Headless 渠道。 例如，本实验中的Web渠道。
+   此更改仅针对最终用户，不会对AEM Forms Server中的表单定义进行任何更改，并且仅针对Headless
+正在考虑的渠道。 例如，本实验中的Web渠道。
 
    ![](/help/assets/screenshot2028127529.png){width="50%" align="left"}
 
@@ -596,12 +603,12 @@ ht-degree: 56%
 
 ## 资源
 
-* [自适应表单核心组件简介](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/adaptive-forms/introduction)
+* [自适应表单核心组件简介](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [使用核心组件创建自适应表单](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+* [使用核心组件创建自适应表单](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
 * [基于核心组件的AF的更新样式](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
 * [Headless自适应表单](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [使用Headless React入门工具包](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
+* [使用Headless React入门工具包](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
