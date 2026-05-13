@@ -5,10 +5,15 @@ description: 了解如何使用Adobe的分步指南在AEM 6.5 Forms上启用Head
 contentOwner: Khushwant Singh
 role: Admin
 exl-id: e1a5e7e0-d445-4cca-b8d7-693d9531f075
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+TQID: https://experienceleague.adobe.com/-jg00RrTORgL35qnU6vjy58UibBQE05bRWmvvYkMjSU
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 8%
+source-wordcount: 782
+ht-degree: 11%
 
 ---
 
@@ -131,7 +136,7 @@ ht-degree: 8%
 ### 在启用核心组件上添加了哪些功能？
 
 
-为您的环境启用自适应表单核心组件时，将有一个空白的基于核心组件的自适应表单模板和 Canvas 3.0 主题添加到您的环境。为您的环境启用自适应表单核心组件后，您可以：
+为您的环境启用自适应表单核心组件时，将有一个空白的基于核心组件的自适应表单模板和 Canvas 3.0 主题添加到您的环境。 为您的环境启用自适应表单核心组件后，您可以：
 
 * 创建基于核心组件的自适应Forms。
 * 创建基于核心组件的自适应表单模板。
