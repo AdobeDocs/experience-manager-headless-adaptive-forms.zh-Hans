@@ -4,10 +4,14 @@ description: 为Forms as a Cloud Service沙盒设置开发环境。
 hide: true
 exl-id: befac9ad-d2c4-4705-96fc-f0ea0ef823b8
 TQID: https://experienceleague.adobe.com/r2jtS8Z3QIN99-a-z2lLLtW6tVroO3FF--CmzklJVig
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
 workflow-type: tm+mt
 source-wordcount: 1369
@@ -31,7 +35,7 @@ ht-degree: 4%
 
 * 创建AEM as a Cloud Service程序：按照[创建程序](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program)文章中的步骤1-7为您的组织创建程序。
 
-* 为您的Cloud Service项目](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments)启用[预发行版渠道。
+* 为您的Cloud Service项目[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments)启用预发行版渠道。
 
 ## 设置工作流
 
@@ -66,7 +70,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    3. 对于您的项目，点按……图标，然后选择<b>编辑项目</b>选项。 将显示一个对话框。 
+    &#x200B;3. 对于您的项目，点按……图标，然后选择<b>编辑项目</b>选项。 将显示一个对话框。 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
@@ -77,7 +81,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    4. 在“编辑程序”对话框中，转到<b>解决方案和加载项选项卡</b>，选择<b> Forms — 数字注册</b>选项，然后点按<b>更新</b>。 
+    &#x200B;4. 在“编辑程序”对话框中，转到<b>解决方案和加载项选项卡</b>，选择<b> Forms — 数字注册</b>选项，然后点按<b>更新</b>。 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
@@ -122,7 +126,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    3. 在本地计算机上，打开命令提示符，创建一个文件夹，然后运行以下命令，并提供系统信息库凭据，已询问：
+    &#x200B;3. 在本地计算机上，打开命令提示符，创建一个文件夹，然后运行以下命令，并提供系统信息库凭据，已询问：
     </br>
     <code> git clone [Repository URL] </code> </br></br>
     例如， </br> 
@@ -248,7 +252,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    3. 对于您的管道，点按……图标，然后选择<b>运行</b>选项。 如果提示运行管道，请点按<b>运行</b>并等待管道<b>状态</b>更改为<b>已完成</b>。  
+    &#x200B;3. 对于您的管道，点按……图标，然后选择<b>运行</b>选项。 如果提示运行管道，请点按<b>运行</b>并等待管道<b>状态</b>更改为<b>已完成</b>。  
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">

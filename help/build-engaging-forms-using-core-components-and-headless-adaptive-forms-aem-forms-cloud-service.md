@@ -6,9 +6,12 @@ seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
 TQID: https://experienceleague.adobe.com/vxO7ZkfNQ001uvMujjDotL5le6Q0gYN-YGoYMThWbAs
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
 workflow-type: tm+mt
 source-wordcount: 2629
@@ -102,18 +105,18 @@ ht-degree: 52%
    1. 单击&#x200B;**创建** > **自适应表单**。
       ![](/help/assets/screenshot2028114629.png)
 
-   1. 从模板选择屏幕中选择&#x200B;**空白（核心组件）**模板，如下所示：
+   1. 从模板选择屏幕中选择&#x200B;**空白（核心组件）**&#x200B;模板，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.1520pm.png)
 
    1. 单击&#x200B;**样式**&#x200B;选项卡，选择 **wknd-theme** 主题，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. 单击&#x200B;**提交**&#x200B;选项卡，选择&#x200B;**提交到REST端点**&#x200B;卡并在&#x200B;**URL中指定POST请求**字段的公共bin，如下所示：
+   1. 单击&#x200B;**提交**&#x200B;选项卡，选择&#x200B;**提交到REST端点**&#x200B;卡并在&#x200B;**URL中指定POST请求**&#x200B;字段的公共bin，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. 单击&#x200B;**创建**。 在表单上指定名称和标题。 例如，**注册**。 单击&#x200B;**创建**。
 
-   1. 这将打开自适应表单编辑器。 关闭偏好设置或信息的任何弹出窗口或对话框。 单击左边栏上的组件浏览器，并将&#x200B;**页眉**&#x200B;和&#x200B;**页脚**组件分别添加到空白表单的顶部和底部。
+   1. 这将打开自适应表单编辑器。 关闭偏好设置或信息的任何弹出窗口或对话框。 单击左边栏上的组件浏览器，并将&#x200B;**页眉**&#x200B;和&#x200B;**页脚**&#x200B;组件分别添加到空白表单的顶部和底部。
       ![](/help/assets/screenshot2028121929.png)
 
    1. 从组件浏览器中拖放组件以创建表单，如下所示：
@@ -412,7 +415,7 @@ ht-degree: 52%
    ![](/help/assets/screenshot2028120529.png)
 
 1. 打开用于启动&#x200B;**react-starter-kit-aem-headless-forms**&#x200B;项目的命令提示符窗口，按&#x200B;**CTRL+C**，然后
-输入**Y**&#x200B;并按Enter键终止npm进程。 请务必停止 npm 服务器，以避免与下一组练习发生冲突。
+输入&#x200B;**Y**&#x200B;并按Enter键终止npm进程。 请务必停止 npm 服务器，以避免与下一组练习发生冲突。
 
 1. 关闭 Visual Studio Code 和命令提示符窗口。
 

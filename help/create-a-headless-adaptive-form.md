@@ -9,10 +9,17 @@ level: Beginner, Intermediate
 index: true
 exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
 TQID: https://experienceleague.adobe.com/-oczwo5CsVwXdzfKgQ9WwM16vBoPY4BVW-02Oeht1A4
-product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
 workflow-type: tm+mt
 source-wordcount: 1328
@@ -35,7 +42,7 @@ AEM Forms as a Cloud Service提供了一个用户友好的编辑器，用于创�
 
 您需要以下各项才能使用自适应Forms编辑器创建自适应表单：
 
-对于AEM 6.5 Forms：****
+对于AEM 6.5 Forms：**&#x200B;**
 
 * 访问AEM 6.5.16.0或更高版本Forms创作实例。
 
@@ -48,7 +55,7 @@ AEM Forms as a Cloud Service提供了一个用户友好的编辑器，用于创�
 * 将您的用户添加到[!DNL forms-users]组。 [!DNL forms-users]组的成员具有创建自适应表单的权限。
 
 
-用于AEM Forms as a Cloud Service的&#x200B;****
+用于AEM Forms as a Cloud Service的&#x200B;**&#x200B;**
 
 * 访问[AEM Forms as a Cloud Service创作实例](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-forms-cloud-service)或[本地AEM Forms as a Cloud Service SDK](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment)环境。
 
