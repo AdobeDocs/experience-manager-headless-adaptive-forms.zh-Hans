@@ -10,22 +10,11 @@ keywords: headless，自适应表单，架构
 index: true
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
 TQID: https://experienceleague.adobe.com/Ox-1cxb5UK-oWcWzrRKcRAzCVaAGhUjQsjtnaURJXiw
-product_v2:
-  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
-  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: f013e6ab-27b8-4645-b5a7-31ffa474d04fid: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
 workflow-type: tm+mt
 source-wordcount: 994
@@ -93,7 +82,7 @@ A typical Headless adaptive forms architecture constitutes an Adobe Experience M
 
 所有这些组件都包含在AEM原型中。 为Headless自适应表单创建AEM Archetype 37或更高版本项目时，项目中会包含以上列出库的最新版本。
 
-* **代码游乐场**： [代码游乐场](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=zh-Hans)是一个交互式环境，旨在供开发人员试验、了解和测试Headless自适应Forms的功能。
+* **代码游乐场**： [代码游乐场](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)是一个交互式环境，旨在供开发人员试验、了解和测试Headless自适应Forms的功能。
 
 **已启动应用程序**： Adobe还发布了一个已启动应用程序，可帮助您快速启动Headless自适应表单。
 
