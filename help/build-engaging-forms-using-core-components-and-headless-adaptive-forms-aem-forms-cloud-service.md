@@ -12,9 +12,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
+source-git-commit: 33435b2ff6c7ff5c936f9256889d1f85f977adfe
 workflow-type: tm+mt
-source-wordcount: 2629
+source-wordcount: 2589
 ht-degree: 52%
 
 ---
@@ -66,13 +66,13 @@ ht-degree: 52%
 1. 打开浏览器，并输入Cloud Service创作环境的URL。<!-- URL is 404! EXPLAIN THE URL IS FOR ILLUSTRATION PURPOSES ONLY? For example: [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html) -->
 
 1. 登录到Cloud Service创作环境。
-   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028113829.png){width="50%"}
 
 1. 要导航到AEM Forms UI，请单击&#x200B;**Forms > Forms和文档**。
 
 
 
-   ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028113929.png){width="50%"}
 
    关闭任何与偏好设置或信息相关的弹出窗口。 将显示所有可用的表单。
 
@@ -93,9 +93,9 @@ ht-degree: 52%
 
    1. 在新的浏览器标签页中打开 <https://pipedream.com/requestbin>。
    1. 单击&#x200B;**创建公共 bin** 并复制端点 URL。
-      ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
+      ![](/help/assets/screenshot2028114329.png){width="50%"}
 
-      ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
+      ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%"}
 
 1. 使用“向导”界面创作自适应表单：
 
@@ -116,21 +116,21 @@ ht-degree: 52%
 
    1. 单击&#x200B;**创建**。 在表单上指定名称和标题。 例如，**注册**。 单击&#x200B;**创建**。
 
-   1. 这将打开自适应表单编辑器。 关闭偏好设置或信息的任何弹出窗口或对话框。 单击左边栏上的组件浏览器，并将&#x200B;**页眉**&#x200B;和&#x200B;**页脚**&#x200B;组件分别添加到空白表单的顶部和底部。
+   1. 自适应表单编辑器将打开。关闭任何弹出窗口或对话框以获取首选项或信息。单击左边栏上的组件浏览器，并将&#x200B;**页眉**&#x200B;和&#x200B;**页脚**&#x200B;组件分别添加到空白表单的顶部和底部。
       ![](/help/assets/screenshot2028121929.png)
 
    1. 从组件浏览器中拖放组件以创建表单，如下所示：
 
-      ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
+      ![](/help/assets/screenshot2028115129.png){width="50%"}
 
 1. 将验证添加到表单：
 
    1. 单击&#x200B;**电话号码**&#x200B;组件，以便显示弹出菜单。 单击菜单中的&#x200B;**“扳手”图标**&#x200B;以配置字段。
 
-   1. 打开&#x200B;**验证选项卡**，将字段标记为&#x200B;**必填**，然后单击&#x200B;**完成**。 这将显示成功消息。
-      ![](/help/assets/screenshot2028123529.png){width="50%" align="left"}
+   1. 打开&#x200B;**验证选项卡**，标记字段&#x200B;**必需**，然后单击&#x200B;**完成**。将显示成功消息。
+      ![](/help/assets/screenshot2028123529.png){width="50%"}
 
-      ![](/help/assets/screenshot2028123629.png){width="50%" align="left"}
+      ![](/help/assets/screenshot2028123629.png){width="50%"}
 
 1. 预览并提交表单。
 
@@ -183,7 +183,7 @@ ht-degree: 52%
 
 1. 使用管理员权限打开命令提示符或 shell：
 
-   ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028115829.png){width="50%"}
 
 1. 在命令提示符下，使用以下命令导航到 **c:\git** 文件夹
 
@@ -209,15 +209,15 @@ ht-degree: 52%
 
 1. 选择&#x200B;**信任父文件夹中所有文件的作者**，并单击&#x200B;**是的，我信任作者**。
 
-   ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028116229.png){width="50%"}
 
 1. 要呈现在云服务发布环境中托管的表单，请重命名 `env_template` 文件。  要重命名此文件，请右键单击 **env_template** 文件并选择&#x200B;**重命名**&#x200B;选项。
 
-   ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028116429.png){width="50%"}
 
    </br>
 
-   ![](/help/assets/screenshot2028116529.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028116529.png){width="50%"}
 
 1. 为.env文件中的变量设置以下值并保存文件：
 
@@ -225,7 +225,7 @@ ht-degree: 52%
 
    * **AEM_ADAPTIVE_FORM**：指定表单的路径。 例如，如果表单路径为 `/content/forms/af/registration`，则此变量的值将为 `registration`。
 
-     ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
+     ![](/help/assets/screenshot2028116429.png){width="50%"}
 
 1. 在AEM环境中创建本地用户。
 
@@ -265,12 +265,12 @@ ht-degree: 52%
    >如果执行`npm run live`命令超过3-4分钟后浏览器出现空白屏幕，请将浏览器URL中的`localhost`更改为127.0.0.1并按&#x200B;**Enter**。
 
 
-   ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028115129.png){width="50%"}
 
 
 1. 在 Visual Studio Code 中，打开 `PROJECT\src\site\_variables.scss` 文件。 请注意，`$error` 颜色是红色阴影。
 
-   ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028120729.png){width="50%"}
 
 1. 在浏览器中，提交表单以在&#x200B;**名字**&#x200B;字段中看到红色。
 
@@ -278,7 +278,7 @@ ht-degree: 52%
 
 1. 将 **$error** 颜色设置为 **#5736eb** 并保存文件。
 
-   ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028120729.png){width="50%"}
 
 1. 刷新浏览器并提交表单。 请注意，名字字段上的错误颜色已相应更改。
 
@@ -303,7 +303,7 @@ ht-degree: 52%
 
 1. 使用管理员权限打开命令提示符。
 
-   ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028115829.png){width="50%"}
 
 1. 在命令提示符下，使用以下命令导航到 **c:\git** 文件夹
 
@@ -332,13 +332,13 @@ ht-degree: 52%
 
    这将打开 Visual Studio Code 窗口。
 
-   ![](/help/assets/screenshot2028117429.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028117429.png){width="50%"}
 
 要呈现在云服务发布环境中托管的表单，请执行以下操作：
 
 1. 将env_template文件重命名为.env文件。 要重命名，请右键单击 **env_template** 文件并选择&#x200B;**重命名**&#x200B;选项。
 
-   ![](/help/assets/screenshot2028117629.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028117629.png){width="50%"}
 
    ![](/help/assets/screenshot2028117729.png)
 
@@ -436,7 +436,7 @@ ht-degree: 52%
 
 1. 使用管理员权限打开命令提示符。
 
-   ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028115829.png){width="50%"}
 
 
 1. 在命令提示符下，使用以下命令导航到 **c:\git** 文件夹：
@@ -475,7 +475,7 @@ ht-degree: 52%
 
 1. 将&#x200B;**env_template**&#x200B;文件重命名为&#x200B;**.env**&#x200B;文件。 要重命名，请右键单击 **env_template** 文件并选择&#x200B;**重命名**。
 
-   ![](/help/assets/screenshot2028126629.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028126629.png){width="50%"}
 
 1. 为 .env 文件中的变量设置以下值。 更新变量后，保存文件。 使用 **Ctrl + S** 开关组合来保存文件。
 
@@ -514,7 +514,7 @@ ht-degree: 52%
 
    选择&#x200B;**选中框以接收 5% 的折扣**。 后续选项&#x200B;**是否要申请`We.Finance`公司信用卡表单？** 被禁用。
 
-   ![](/help/assets/screenshot2028127329.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028127329.png){width="50%"}
 
 ## 第 6 课
 
@@ -560,7 +560,7 @@ ht-degree: 52%
    此更改仅针对最终用户，不会对AEM Forms Server中的表单定义进行任何更改，并且仅针对Headless
 正在考虑的渠道。 例如，本实验中的Web渠道。
 
-   ![](/help/assets/screenshot2028127529.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028127529.png){width="50%"}
 
 
 1. 关闭 Visual Studio Code 和命令提示符窗口。

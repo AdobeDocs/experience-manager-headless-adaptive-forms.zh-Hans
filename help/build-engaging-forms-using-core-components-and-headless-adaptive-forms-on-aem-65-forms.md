@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
+source-git-commit: 33435b2ff6c7ff5c936f9256889d1f85f977adfe
 workflow-type: tm+mt
-source-wordcount: 2311
+source-wordcount: 2301
 ht-degree: 39%
 
 ---
@@ -66,20 +66,20 @@ ht-degree: 39%
 
 ### 练习 {#lesson-1-excercise}
 
-1. 打开浏览器，输入创作环境的URL。 例如：
+1. 打开浏览器，输入创作环境的URL。例如：
    [https://localhost:4502](https://localhost:4502)。
 
 1. 登录后，导航至 AEM Forms UI。 单击&#x200B;**表单**。
 
-   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028113829.png){width="50%"}
 
 1. 单击&#x200B;**表单和文档**。 关闭任何与偏好设置或信息相关的弹出窗口。
 
-   ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028113929.png){width="50%"}
 
    将显示所有可用的表单。
 
-   ![](/help/assets/screenshot2028114029.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028114029.png){width="50%"}
 
 ## 第 2 课
 
@@ -96,10 +96,10 @@ ht-degree: 39%
 1. 为表单创建提交端点：
 
    1. 在新的浏览器标签页中打开 <https://pipedream.com/requestbin>。
-      ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
+      ![](/help/assets/screenshot2028114329.png){width="50%"}
 
    1. 单击&#x200B;**创建公共 bin** 并复制端点 URL。
-      ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
+      ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%"}
 
    此特定端点用作提交和查看数据的示例。 在实际生产中，您使用自己的端点或数据源来存储捕获的数据。
 
@@ -108,13 +108,13 @@ ht-degree: 39%
    1. 在第1课中使用的浏览器选项卡中，导航到AEM Forms Web界面，然后导航到&#x200B;**Forms** > **Forms和文档**。
 
    1. 单击&#x200B;**创建**&#x200B;并选择“自适应表单”。
-      ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
+      ![](/help/assets/creating-adaptive-form-6-5.png){width="50%"}
 
    1. 从模板选择屏幕中选择&#x200B;**Blank with Core Components**&#x200B;模板，如下所示，然后单击&#x200B;**下一步**。
-      ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
+      ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%"}
 
-   1. 将`Contact us`指定为表单的&#x200B;**标题**。 确保表单的&#x200B;**Name**&#x200B;为`contact-us`。
-      ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
+   1. 将`Contact us`指定为表单的&#x200B;**标题**。确保表单的&#x200B;**Name**&#x200B;为`contact-us`。
+      ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%"}
 
    1. 单击&#x200B;**创建**。 此时将显示一个对话框。
 
@@ -122,11 +122,11 @@ ht-degree: 39%
 
    1. 打开组件浏览器，并将面板组件拖放到屏幕中间。
 
-      ![](/help/assets/lab65-add-panel.png){width="50%" align="left"}
+      ![](/help/assets/lab65-add-panel.png){width="50%"}
 
    1. 从组件浏览器中拖放组件以创建表单，如下所示：
 
-      ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%" align="left"}
+      ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%"}
 
 
    1. 打开内容浏览器，单击指南容器属性图标，然后打开&#x200B;**提交**&#x200B;选项卡。
@@ -135,7 +135,7 @@ ht-degree: 39%
 
    1. 选择&#x200B;**启用POST请求**&#x200B;选项，并在&#x200B;**URL for POST请求**&#x200B;文本框中指定在第2课中创建的REST端点，然后单击&#x200B;**完成**&#x200B;图标。
 
-      ![](/help/assets/configure-submit-action.png){width="50%" align="left"}
+      ![](/help/assets/configure-submit-action.png){width="50%"}
 
 1. 发布自适应表单：
 
@@ -159,7 +159,7 @@ ht-degree: 39%
 
 1. 使用管理员权限打开命令提示符或 shell：
 
-   ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028115829.png){width="50%"}
 
 1. 在命令提示符下，使用以下命令导航到`c:\git`文件夹。
 
@@ -182,19 +182,19 @@ ht-degree: 39%
    code .
    ```
 
-   ![](/help/assets/screenshot2028126029.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028126029.png){width="50%"}
 
 1. 选择&#x200B;**信任父文件夹中所有文件的作者**，并单击&#x200B;**是的，我信任作者**。
 
-   ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028116229.png){width="50%"}
 
 1. 将`env_template`文件重命名为.env。  要重命名此文件，请右键单击 **env_template** 文件并选择&#x200B;**重命名**&#x200B;选项。
 
-   ![](/help/assets/screenshot2028116429.png){width="30%" align="left"}
+   ![](/help/assets/screenshot2028116429.png){width="30%"}
 
    </br>
 
-   ![](/help/assets/screenshot2028116529.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028116529.png){width="50%"}
 
 1. 为.env文件中的变量设置以下值并保存文件：
 
@@ -235,12 +235,12 @@ ht-degree: 39%
    >如果执行`npm run live`命令超过3-4分钟后浏览器出现空白屏幕，请将浏览器URL中的`localhost`更改为127.0.0.1并按&#x200B;**Enter**。
 
 
-   ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png){width="50%" align="left"}
+   ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png){width="50%"}
 
 
 1. 在 Visual Studio Code 中，打开 `PROJECT\src\site\_variables.scss` 文件。 请注意，`$error` 颜色是红色阴影。
 
-   ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028120729.png){width="50%"}
 
 1. 在浏览器中，提交表单以在&#x200B;**名字**&#x200B;字段中看到红色。
 
@@ -271,7 +271,7 @@ ht-degree: 39%
 
 1. 使用管理员权限打开命令提示符。
 
-   ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
+   ![](/help/assets/screenshot2028115829.png){width="30%"}
 
 1. 在命令提示符下，使用以下命令导航到`c:\git`文件夹。
 
@@ -300,13 +300,13 @@ ht-degree: 39%
 
    这将打开 Visual Studio Code 窗口。
 
-   ![](/help/assets/screenshot2028117429.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028117429.png){width="50%"}
 
 要呈现在发布环境中托管的表单，请执行以下操作：
 
 1. 将env_template文件重命名为.env文件。 要重命名，请右键单击 **env_template** 文件并选择&#x200B;**重命名**&#x200B;选项。
 
-   ![](/help/assets/screenshot2028117629.png){width="30%" align="left"}
+   ![](/help/assets/screenshot2028117629.png){width="30%"}
 
    ![](/help/assets/screenshot2028117729.png)
 
@@ -355,7 +355,7 @@ ht-degree: 39%
 
 1. 选择&#x200B;**联系电话**&#x200B;字段并单击工具栏中的&#x200B;**编辑图标（铅笔图标）**。 如果看不到弹出式工具栏，请切换到编辑模式。 单击&#x200B;**预览**&#x200B;按钮右上角的&#x200B;**编辑**&#x200B;按钮。
 
-   ![](/help/assets/change-field-title.png){width="50%" align="left"}
+   ![](/help/assets/change-field-title.png){width="50%"}
 
 1. 将标签更改为&#x200B;**手机号码**。 单击表单中的任意空白区域，这将保存对表单所做的更改。
 
@@ -397,7 +397,7 @@ ht-degree: 39%
 
 1. 使用管理员权限打开命令提示符。
 
-   ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
+   ![](/help/assets/screenshot2028115829.png){width="30%"}
 
 1. 在命令提示符下，使用以下命令导航到`c:\git`文件夹。
 
@@ -435,7 +435,7 @@ ht-degree: 39%
 
 1. 将&#x200B;**env_template**&#x200B;文件重命名为&#x200B;**.env**&#x200B;文件。 要重命名，请右键单击 **env_template** 文件并选择&#x200B;**重命名**。
 
-   ![](/help/assets/screenshot2028126629.png){width="30%" align="left"}
+   ![](/help/assets/screenshot2028126629.png){width="30%"}
 
 1. 为 .env 文件中的变量设置以下值。 更新变量后，保存文件。 使用 **Ctrl + S** 开关组合来保存文件。
 
@@ -506,7 +506,7 @@ ht-degree: 39%
 
 1. 如果浏览器未自动刷新，请刷新浏览器，以查看文本输入组件使用不同的变体。
 
-   ![](/help/assets/screenshot2028127729.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028127729.png){width="50%"}
 
 
    此更改仅针对最终用户，不会对AEM Forms Server中的表单定义进行任何更改，并且仅针对Headless
