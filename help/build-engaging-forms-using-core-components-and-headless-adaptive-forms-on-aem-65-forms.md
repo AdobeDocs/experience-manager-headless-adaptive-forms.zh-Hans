@@ -10,15 +10,9 @@ topic-tags: develop
 hide: true
 exl-id: 07a71aac-de38-4839-b8d6-b47c3f575eb3
 TQID: https://experienceleague.adobe.com/akgLAvLprxdXwMCXmwobbeFDvQF0rPR2qiENi3dLLDM
-product_v2:
-  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 33435b2ff6c7ff5c936f9256889d1f85f977adfe
 workflow-type: tm+mt
 source-wordcount: 2301
@@ -107,7 +101,7 @@ ht-degree: 39%
 
    1. 在第1课中使用的浏览器选项卡中，导航到AEM Forms Web界面，然后导航到&#x200B;**Forms** > **Forms和文档**。
 
-   1. 单击&#x200B;**创建**&#x200B;并选择“自适应表单”。
+   1. 单击&#x200B;**创建**并选择“自适应表单”。
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%"}
 
    1. 从模板选择屏幕中选择&#x200B;**Blank with Core Components**&#x200B;模板，如下所示，然后单击&#x200B;**下一步**。
@@ -376,7 +370,7 @@ ht-degree: 39%
    ![](/help/assets/headless-adaptive-form.png)
 
 1. 打开用于启动&#x200B;**react-starter-kit-aem-headless-forms**&#x200B;项目的命令提示符窗口，按&#x200B;**CTRL+C**，然后
-输入&#x200B;**Y**&#x200B;并按Enter键终止npm进程。 请务必停止 npm 服务器，以避免与下一组练习发生冲突。
+输入**Y**&#x200B;并按Enter键终止npm进程。 请务必停止 npm 服务器，以避免与下一组练习发生冲突。
 
 1. 关闭 Visual Studio Code 和命令提示符窗口。
 
@@ -540,12 +534,12 @@ ht-degree: 39%
 
 ## 资源
 
-* [自适应表单核心组件简介](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/adaptive-forms/introduction)
+* [自适应表单核心组件简介](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [使用核心组件创建自适应表单](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+* [使用核心组件创建自适应表单](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
 * [基于核心组件的AF的更新样式](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
 * [Headless自适应Forms](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [使用Headless React入门工具包](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
+* [使用Headless React入门工具包](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
