@@ -9,7 +9,6 @@ level: Beginner, Intermediate
 contentOwner: Khushwant Singh
 docset: CloudService
 hide: true
-exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
 TQID: https://experienceleague.adobe.com/T5J7Am-NsZ-hzZkRRg3LEk0anMjhXaEznf1bijy2H-Q
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
@@ -19,12 +18,14 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: cc2553bb4b16ea8c31664c227921c4e91d1c7a62
+exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
+source-git-commit: 64fe5704fcd6ace7461a02007d99710233b74d22
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: 946
 ht-degree: 51%
 
 ---
+
 
 # 在AEM Forms as a Cloud Service上启用Headless自适应Forms {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
 
@@ -33,23 +34,18 @@ ht-degree: 51%
 ## 注意事项
 
 * 当您创建新的AEM Forms as a Cloud Service程序时，[已为您的环境启用Headless自适应Forms](#are-adaptive-forms-core-components-enabled-for-my-environment)。
-
 * 如果您运行的是核心组件[未启用](#enable-components)的旧版Forms as a Cloud Service程序，请先[将自适应Forms核心组件依赖项添加到](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment)您的Cloud Service存储库。 将更新的存储库部署到每个环境以启用Headless自适应表单。
-
 * 如果您的Cloud Service环境已允许您[创建基于核心组件的自适应表单](create-a-headless-adaptive-form.md)，则将自动启用Headless自适应表单。 然后，您可以将这些表单作为Headless体验提供给移动设备、Web、本机应用程序或任何需要它们的服务。
 
 >[!NOTE]
 >
->
-> Adobe提供了一个自适应Forms [简易工具包（React应用程序）](create-and-publish-a-headless-form.md)，以帮助开发人员快速开始进行Headless自适应Forms开发，而无需在AEM Forms as a Cloud Service环境中启用Headless自适应Forms。 在快速动手开发Headless表单之后，您可以稍后在Forms as a Cloud Service环境中启用Headless自适应Forms[&#128279;](create-and-publish-a-headless-form.md)。
+>Adobe提供了一个自适应Forms [简易工具包（React应用程序）](create-and-publish-a-headless-form.md)，以帮助开发人员快速开始进行Headless自适应Forms开发，而无需在AEM Forms as a Cloud Service环境中启用Headless自适应Forms。 在快速动手开发Headless表单之后，您可以稍后在Forms as a Cloud Service环境中启用Headless自适应Forms[&#128279;](create-and-publish-a-headless-form.md)。
 
 ## 为AEM Forms as a Cloud Service环境启用Headless自适应Forms
 
 按照列出的顺序，执行以下步骤，为AEM Forms as a Cloud Service环境启用Headless自适应Forms
 
-<!-- Missing image ALT tag -->
-![](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service.png)
-
+![启用表单图像](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service.png)
 
 ## &#x200B;1. 克隆AEM Forms as a Cloud Service Git存储库 {#clone-git-repository}
 
@@ -207,18 +203,18 @@ ht-degree: 51%
    >[!NOTE]
    >
    >
-   >  将 `${appId}` 替换为您的 appId。
+   >将 `${appId}` 替换为您的 appId。
    >
-   >  要查找您的 `${appId}`，请在 `[AEM Repository Folder]/all/pom.xml` 文件中搜索 `-packages/application/install` 一词。 在 `-packages/application/install` 一词之前的文本就是您的 `${appId}`。 例如，下列代码 `myheadlessform` 是 `${appId}`。
+   >要查找您的 `${appId}`，请在 `[AEM Repository Folder]/all/pom.xml` 文件中搜索 `-packages/application/install` 一词。 在 `-packages/application/install` 一词之前的文本就是您的 `${appId}`。 例如，下列代码 `myheadlessform` 是 `${appId}`。
    >
-   >   ```
-   >             <embedded>
-   >                     <groupId>com.myheadlessform</groupId>
-   >                     <artifactId>myheadlessform.ui.apps<artifactId>
-   >                     <type>zip</type>
-   >                   <target>/apps/myheadlessform-packages/application install</target>
-   >             </embedded>
-   >   ```
+   >```
+   >         <embedded>
+   >                 <groupId>com.myheadlessform</groupId>
+   >                 <artifactId>myheadlessform.ui.apps<artifactId>
+   >                 <type>zip</type>
+   >               <target>/apps/myheadlessform-packages/application install</target>
+   >         </embedded>
+   >```
 
 1. 在 `[AEM Repository Folder]/all/pom.xml` 文件的 `<dependencies>` 部分中添加以下依赖项，然后保存该文件：
 
