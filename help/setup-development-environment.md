@@ -3,13 +3,14 @@ title: 为AEM Headless自适应表单设置开发环境
 description: 为AEM Headless自适应表单设置开发环境
 hide: true
 exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
-source-git-commit: 893f0428c08e6216cb293ab2f4c427b7d1c26060
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '805'
 ht-degree: 3%
-
 ---
-
 
 # 设置本地开发环境 {#headless-adaptive-forms-setup-development-environment}
 
@@ -78,7 +79,7 @@ AEM as a Cloud Service SDK (AEM SDK)为开发人员创建和测试Headless自适
 
    >[!NOTE]
    >
-   > 不要双击.jar文件来启动它。 它导致[错误](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime#troubleshooting-double-click)。
+   > 不要双击.jar文件来启动它。 它导致[错误](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime#troubleshooting-double-click)。
 
 1. 打开命令提示符：
    * 在Windows上，使用&#x200B;**以管理员身份运行**&#x200B;选项在提升的模式下打开命令提示符。

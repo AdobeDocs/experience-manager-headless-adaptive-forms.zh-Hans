@@ -3,13 +3,17 @@ title: 使用事件处理和提交表单Headless自适应表单数据
 description: 使用事件处理和提交表单Headless自适应表单数据。
 hide: true
 exl-id: f80a0d44-fa76-4df7-883e-3f5d0384a2a5
-source-git-commit: 3af67fd41cdd1e63a460e56ef1d273c90b3954d7
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
-
 ---
-
 # 使用事件处理和提交表单Headless自适应表单数据 {#using-events}
 
 在此之前，您学习如何[创建自定义Headless自适应表单](create-and-publish-a-headless-form.md)以及[使用自定义React组件设置表单样式](use-google-material-ui-react-components-to-render-a-headless-form.md)。 本文重点介绍如何使用事件来保留用户输入的数据，并将其提交到数据存储区。

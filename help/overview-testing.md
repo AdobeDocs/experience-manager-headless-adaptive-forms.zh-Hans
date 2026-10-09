@@ -8,27 +8,38 @@ role: Admin, Developer
 level: Beginner, Intermediate
 keywords: Headless CMS，自适应表单， Headless UI， Headful CMS，语音助手， alexa，聊天机器人， WhatsApp架构
 hide: true
-TQID: https://experienceleague.adobe.com/HMhHwfjQTZe2BaoMbMilfOJ0-GZrZsHTGjTBqeU-ORM
+exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
+TQID: 'https://experienceleague.adobe.com/HMhHwfjQTZe2BaoMbMilfOJ0-GZrZsHTGjTBqeU-ORM'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
-source-git-commit: 64fe5704fcd6ace7461a02007d99710233b74d22
+    internal-label: Beginner
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
-source-wordcount: 331
+source-wordcount: '331'
 ht-degree: 0%
-
 ---
-
 
 # 简介
 
@@ -41,7 +52,7 @@ Headless自适应表单可帮助您执行以下操作：
 * 使用您选择的编程语言构建高质量的多渠道表单。
 * 将表单本机集成到桌面和移动设备应用程序、网站和聊天应用程序。
 * 对表单应用程序重用您的专有UI组件。
-* 使用Adobe Experience Manager Forms[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)的强大功能。
+* 使用Adobe Experience Manager Forms](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)的[强大功能。
 
 此外，您可以自由开发自己的组件，以使用您选择的任何UI框架和编程语言呈现表单。 您还可以使用现成的React组件渲染Headless自适应表单。
 
