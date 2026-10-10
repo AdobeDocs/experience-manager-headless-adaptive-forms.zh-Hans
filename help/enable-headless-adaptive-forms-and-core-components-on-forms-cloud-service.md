@@ -9,23 +9,32 @@ level: Beginner, Intermediate
 contentOwner: Khushwant Singh
 docset: CloudService
 hide: true
-TQID: https://experienceleague.adobe.com/T5J7Am-NsZ-hzZkRRg3LEk0anMjhXaEznf1bijy2H-Q
+exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
+TQID: 'https://experienceleague.adobe.com/T5J7Am-NsZ-hzZkRRg3LEk0anMjhXaEznf1bijy2H-Q'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
-source-git-commit: 64fe5704fcd6ace7461a02007d99710233b74d22
+    internal-label: Beginner
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
-source-wordcount: 946
+source-wordcount: '946'
 ht-degree: 51%
-
 ---
-
 
 # 在AEM Forms as a Cloud Service上启用Headless自适应Forms {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
 
@@ -73,7 +82,7 @@ ht-degree: 51%
 
 1. 在纯文本代码编辑器中打开您的 Git 存储库文件夹。 例如 VS Code。
 1. 打开 `[AEM Repository Folder]\pom.xml` 文件以供编辑。
-1. 将 `core.forms.components.version`、`core.forms.components.af.version` 和 `core.wcm.components.version` 组件的版本替换为[核心组件文档](https://github.com/adobe/aem-core-forms-components)中指定的版本。 如果不存在，请添加这些组件。
+1. 将 `core.forms.components.version`、`core.forms.components.af.version` 和 `core.wcm.components.version` 组件的版本替换为[核心组件文档](https://github.com/adobe/aem-core-forms-components)中指定的版本。 如果该组件不存在，请添加这些组件。
 
    ```XML
    <!-- Replace the version with the latest released version at https://github.com/adobe/aem-core-forms-components/tags -->
@@ -320,7 +329,7 @@ ht-degree: 51%
 
 ### 启用核心组件时将添加哪些功能？ {#core-components-capabilities}
 
-为您的环境启用自适应表单核心组件时，将有一个空白的基于核心组件的自适应表单模板和 Canvas 3.0 主题添加到您的环境。 为您的环境启用自适应表单核心组件后，您可以：
+为您的环境启用自适应表单核心组件后，系统会将一个空白的基于核心组件的自适应表单模板和 Canvas 3.0 主题添加到您的环境中。 为您的环境启用自适应表单核心组件后，您可以：
 
 * 创建基于核心组件的自适应Forms。
 * 创建基于核心组件的自适应表单模板。
